@@ -1,5 +1,6 @@
 # msr_assignment2
- Note: This is a reproduction project as part of the MSR course 2022 at UniKo, CS department, SoftLang Team
+<pre>
+ Note: This is a reproduction project as part of the MSR course 2022 at UniKo, CS department, SoftLang Team<br />
 • Names of team: Delta
 • Students Name: 
         Abdullah Md Humayun Kabir
@@ -20,7 +21,7 @@
         1 GB of RAM
     Software requirements :
         libraries:
-            tqdm
+            tqdm<
             nltk
             numpy
             scikit-learn
@@ -31,3 +32,4 @@
         jupyter notebook
     •• Validation: In order to fetch the data at first extract the "data.zip" in data folder and run the "fetch.ipynb" file in extracted folder it will create a csv file with all the questions.
     •• Data: As we were unable to run the model we could only create a csv with all the question. Further more the related question id's are also fetched so we need to map them to the question bank and label them for further usage. 
+    </pre>
