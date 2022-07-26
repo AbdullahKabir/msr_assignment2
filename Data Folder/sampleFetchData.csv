@@ -1,0 +1,1889 @@
+,q_Id,q_Title,q_body,q_ans_Id,ans_id,ans,q_Id_2
+0,4,,"<p>You can turn off notification in your stock Messaging application by going into the settings dialog  (Menu button -> Settings) and unchecking Notifications</p>
+",,2,"Beat me to it, eh?",4
+1,5,Moto Droid v1 disabling primary Wireless AP,"<p>I have a Motorola DROID v1 that is running Froyo (2.2).  I've noticed that if my device sleeps for a while, when I wake it up it will not attempt to connect to the wireless AP in my home.  When I go to the wireless settings section, I see a note next to the AP entry that says 'disabled'.  If I click the entry and select 'connect', it connects right away.  It will remain connected until the next longish sleep, when it is again marked as disabled.</p>
+
+<p>Is there any way to prevent this AP entry from being marked as disabled?</p>
+",,45,Is your wireless network set to broadcast the SSID? I've heard of people having problems when this is hidden (and there is no real benefit to doing so),5
+2,5,Moto Droid v1 disabling primary Wireless AP,"<p>I have a Motorola DROID v1 that is running Froyo (2.2).  I've noticed that if my device sleeps for a while, when I wake it up it will not attempt to connect to the wireless AP in my home.  When I go to the wireless settings section, I see a note next to the AP entry that says 'disabled'.  If I click the entry and select 'connect', it connects right away.  It will remain connected until the next longish sleep, when it is again marked as disabled.</p>
+
+<p>Is there any way to prevent this AP entry from being marked as disabled?</p>
+",,66,"No, it isn't hidden.  The security is set to WPA-PSK.",5
+3,5,Moto Droid v1 disabling primary Wireless AP,"<p>I have a Motorola DROID v1 that is running Froyo (2.2).  I've noticed that if my device sleeps for a while, when I wake it up it will not attempt to connect to the wireless AP in my home.  When I go to the wireless settings section, I see a note next to the AP entry that says 'disabled'.  If I click the entry and select 'connect', it connects right away.  It will remain connected until the next longish sleep, when it is again marked as disabled.</p>
+
+<p>Is there any way to prevent this AP entry from being marked as disabled?</p>
+",,4108,Did you ever find a solution?,5
+4,5,Moto Droid v1 disabling primary Wireless AP,"<p>I have a Motorola DROID v1 that is running Froyo (2.2).  I've noticed that if my device sleeps for a while, when I wake it up it will not attempt to connect to the wireless AP in my home.  When I go to the wireless settings section, I see a note next to the AP entry that says 'disabled'.  If I click the entry and select 'connect', it connects right away.  It will remain connected until the next longish sleep, when it is again marked as disabled.</p>
+
+<p>Is there any way to prevent this AP entry from being marked as disabled?</p>
+",,4414,No solution yet.,5
+5,5,Moto Droid v1 disabling primary Wireless AP,"<p>I have a Motorola DROID v1 that is running Froyo (2.2).  I've noticed that if my device sleeps for a while, when I wake it up it will not attempt to connect to the wireless AP in my home.  When I go to the wireless settings section, I see a note next to the AP entry that says 'disabled'.  If I click the entry and select 'connect', it connects right away.  It will remain connected until the next longish sleep, when it is again marked as disabled.</p>
+
+<p>Is there any way to prevent this AP entry from being marked as disabled?</p>
+",,5012,"We just started seeing a similar issue on a droid 2 global today. For us, it won't connect the first time -- it just reads ""disabled"" rather than ""connected"". Using wpa2 psk, SSID is shown, NG mixed mode. I'll post if we solve it soon.",5
+6,5,Moto Droid v1 disabling primary Wireless AP,"<p>I have a Motorola DROID v1 that is running Froyo (2.2).  I've noticed that if my device sleeps for a while, when I wake it up it will not attempt to connect to the wireless AP in my home.  When I go to the wireless settings section, I see a note next to the AP entry that says 'disabled'.  If I click the entry and select 'connect', it connects right away.  It will remain connected until the next longish sleep, when it is again marked as disabled.</p>
+
+<p>Is there any way to prevent this AP entry from being marked as disabled?</p>
+",,7580,"My wife's Droid 1 has problems connecting to our AP too.  Sleep Policy is set to ""Never"", but that hasn't helped.  Happens on all of the stock ROMs, CyanogenMod, and Sapphire.",5
+7,9,Do I really need to install a task manager?,"<p>Does one really need to install a task manager? My phone does slowdown on rare occasions but it's not something that hampers regular usage.</p>
+",22,19025,http://lifehacker.com/5862994/real-world-test-show-that-android-task-killers-are-still-useless,9
+8,9,Do I really need to install a task manager?,"<p>Does one really need to install a task manager? My phone does slowdown on rare occasions but it's not something that hampers regular usage.</p>
+",22,39501,See also: [How can I stop applications and services from running?](http://android.stackexchange.com/q/30332/1465),9
+9,10,,"<p>The clearest answer I've seen is here: <a href=""http://www.droidforums.net/forum/droid-applications/8328-how-guide-disable-double-notifications-when-using-handcent-sms.html"" rel=""nofollow"">http://www.droidforums.net/forum/droid-applications/8328-how-guide-disable-double-notifications-when-using-handcent-sms.html</a></p>
+
+<p>Quoting:</p>
+
+<ol>
+<li>Open the ""messaging"" from the app drawer</li>
+<li>Push the ""menu"" button(the 2nd button from left on the bottom of your Droid</li>
+<li>Click SETTINGS</li>
+<li>Scroll down and UNCHECK ""Notifications""</li>
+<li>To futher disable the mssaging app you can UNCHECK "" Auto-Retrieve""(this prevents the ""Messaging"" App from even downloading messages.</li>
+<li>Exit the app. Rejoice. Live long and Prosper. Yay!</li>
+</ol>
+",,72,Did not know about Auto-Retrieve. Thought that was what enabled all apps to get the sms. Oy vei.,10
+10,13,,"<h1><strong>Things that Require Root</strong></h1>
+<h2>Root File Explorers</h2>
+<p>You can remount your <code>/system/</code> directory read-write, which will allow you to <a href=""http://wiki.cyanogenmod.org/w/Barebones"" rel=""noreferrer"">remove carrier-shipped applications</a> you don't like and so on.  Root file explorers can allow you to view all folders on your phone, such as <code>/data/</code> which is normally protected.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.blogspot.superthomaslab.mountsystemrorw"" rel=""noreferrer"">Mount /system RO/RW</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.speedsoftware.rootexplorer"" rel=""noreferrer"">Root Explorer</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.estrongs.android.pop"" rel=""noreferrer"">ES File Explorer</a></li>
+</ul>
+<h2>Patching Apps</h2>
+<p>With root access you can patch other apps to gain special access to functions, or removal of self-protection for some apps.</p>
+<ul>
+<li><a href=""https://in-appstore.com/android/"" rel=""noreferrer"">Freedom</a> - Get iAP (in-App Purchase) for free! Buy diamonds, rubies and Pro unlocks without real money. Note: Legal restrictions may apply depending on your country/region.</li>
+<li><a href=""https://www.luckypatchers.com/download/"" rel=""noreferrer"">Lucky Patcher</a> - Patch apps so that they don't require Google Play Services / displays no more ads / automatically become Pro version / work at certain DPI... There's many you can do with Lucky Patcher and there's even a bunch of patches provided already.</li>
+</ul>
+<h2>Moving &amp; Removing Apps</h2>
+<p>Access to /system also means you can move apps or updates to system apps from /data to /system (with caution!), if the partition has enough space.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall or freeze system apps, integrate updates into your ROM to save space, move apps to SD, and more.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.lrenault.tools.apps2rom&amp;hl=en"" rel=""noreferrer"">apps2rom</a> - does for free what the pro version of titanium backup does: lets you move apps to the system partition.</li>
+<li><a href=""http://www.bloatfreezer.com/"" rel=""noreferrer"">Bloatfreezer</a> - Freeze or remove system apps</li>
+<li><a href=""http://www.link2sd.info/faq"" rel=""noreferrer"">Link2SD</a> - Move (system) applications to a second partition in SD card, liberating loads of free space in <code>/system</code> partition.</li>
+</ul>
+<p>Note that moving apps to the sdcard has risks and cons, and should be undertaken only if space is needed. Most modern devices have enough memory for many apps (16GB+), providing that photos/videos/music are stored on an external sdcard.</p>
+<h2>Tethering</h2>
+<p>Some devices already have Wi-Fi tethering out-of-the-box, like the Samsung Galaxy S, so this isn't such a big deal on them unless the carrier charges for the feature.</p>
+<ul>
+<li><a href=""http://code.google.com/p/android-wifi-tether/"" rel=""noreferrer"">Android Wi-Fi Tether</a></li>
+<li><s><a href=""http://www.appbrain.com/app/android.tether"" rel=""noreferrer"">Wireless Tether</a></s></li>
+</ul>
+<h2>Screenshots &amp; screen recording</h2>
+<p>root is needed for screenshots before 4.0-Ice Cream Sandwich.
+Most pre-lollipop screen recorders also require root.</p>
+<ul>
+<li><a href=""http://www.appbrain.com/app/com.bw.picme.local"" rel=""noreferrer"">ShootMe</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.gmail.drocap.drocap2"" rel=""noreferrer"">Drocap2</a></li>
+</ul>
+<h2>Backups</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall system apps, integrate updates into your ROM to save space, and so on.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ClockworkMod Recovery (ROM Manager)</a> - Usually requires root to install via ROM Manager.  Allows you to backup the entire device, including your ROM, as well as flash new ROMs and other advanced tasks.</li>
+</ul>
+<p>There are also many apps that claim to make a full nandroid backup.</p>
+<h2>Application/Network Control</h2>
+<ul>
+<li><p><a href=""http://www.appbrain.com/app/com.bigtincan.android.adfree"" rel=""noreferrer"">AdFree</a> - Removes ads by changing the hosts file (so both ads in apps and in browser)</p>
+</li>
+<li><p><a href=""http://forum.xda-developers.com/showthread.php?t=2190753"" rel=""noreferrer"">Adaway</a> - Also blocks in-app adds.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.googlecode.droidwall.free"" rel=""noreferrer"">Droid Wall</a> - Firewall application.  Got an app that's using up all your data when you're not even using it?  Block it with this!</p>
+</li>
+<li><p><a href=""https://www.torproject.org/docs/android.html"" rel=""noreferrer"">Orbot</a> - Tor app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.aac.cachemate.demo"" rel=""noreferrer"">Cache Mate</a> - Clear cache of all apps</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=org.onaips.vnc"" rel=""noreferrer"">Droid VNC Server</a> - Connect to your phone via VNC</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.lbe.security"" rel=""noreferrer"">LBE Security Master</a> - Selectively revoke permissions from app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.smart.swkey"" rel=""noreferrer"">Button Savior</a> - Helps to add on screen button to compensate a failure of a physical button.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=ru.org.amip.ClockSync"" rel=""noreferrer"">ClockSync</a> - to automatically sync the device's time with few predefined atomic clocks.</p>
+</li>
+</ul>
+<h2>Xposed Framework</h2>
+<p>The Xposed framework allows apps with advanced tweaking functionality to be installed.</p>
+<ul>
+<li>GravityBox (for Android <a href=""http://repo.xposed.info/module/com.ceco.gm2.gravitybox"" rel=""noreferrer"">4.2</a> <a href=""http://repo.xposed.info/module/com.ceco.kitkat.gravitybox"" rel=""noreferrer"">4.4</a> <a href=""http://repo.xposed.info/module/com.ceco.lollipop.gravitybox"" rel=""noreferrer"">5.0 5.1</a> <a href=""http://repo.xposed.info/module/com.ceco.marshmallow.gravitybox"" rel=""noreferrer"">6.0</a>) - An app that provides many system tweaks.</li>
+<li><a href=""http://repo.xposed.info/module/com.pyler.xinstaller"" rel=""noreferrer"">XInstaller</a> - Various tweaks for Package Installer.</li>
+<li><a href=""http://repo.xposed.info/module/com.versobit.kmark.xhangouts"" rel=""noreferrer"">XHangouts</a> - Improved version of google hangouts.</li>
+<li><s>XWhatsApp</s> - Mod for the popular whatsapp messenger.</li>
+<li><a href=""http://repo.xposed.info/module/biz.bokhorst.xprivacy"" rel=""noreferrer"">XPrivacy</a> - Finegrained app control.</li>
+</ul>
+<h2>CPU Control</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.mhuang.overclocking"" rel=""noreferrer"">SetCPU</a> - Control the processor speed of the phone, can also setup profiles.  It allows underclocking based on conditions, e.g. underclock to 125mhz when screen is turned off. It dramatically increases battery life without affecting performance (when you're actually using apps / the phone) or can improve performance via overclocking.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=org.freecoder.widgets.overclock"" rel=""noreferrer"">Overclock Widget</a> - Similar to SetCPU but less functional</li>
+</ul>
+<h2>Enable swap file / partition</h2>
+<ul>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.swapit.expander.de"" rel=""noreferrer"">ROEHSOFT RAM-EXPANDER (SWAP)</a> - Use SD card for more RAM.</p>
+</li>
+<li><p><s><a href=""https://play.google.com/store/apps/details?id=com.Memory_Swapper_Free_120510"" rel=""noreferrer"">Memory Swapper Free</a> - support swap file.</s></p>
+</li>
+</ul>
+<h2>Advanced and Miscellaneous</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> - Facilitates installing new ROMs with ClockworkMod Recovery, and allows you to back up your entire device (ROM + apps + data) and other advanced tasks.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.siriusapplications.quickboot"" rel=""noreferrer"">Quick Boot</a> - Allows you to reboot into recovery or the bootloader / Download Mode.</li>
+<li><s><a href=""http://www.appbrain.com/app/net.geekherd.softbuttonshack"" rel=""noreferrer"">LED Hack</a> - Disable LED on phone</s> (no longer available on Android Market)</li>
+<li>Lag fixes - Various tweaks and filesystem changes to speed up your phone or prevent issues with your phone pausing / freezing temporarily.  These are particularly useful on some Samsung phones that use an RFS filesystem.  An Ext4 lagfix like <a href=""http://project-voodoo.org/"" rel=""noreferrer"">Voodoo</a> is recommended, but there are also Ext2 lagfixes like <a href=""http://forum.xda-developers.com/showthread.php?t=784691"" rel=""noreferrer"">RyanZA's One Click Lag Fix</a> which also allows you to change advanced memory, Wi-Fi, and disk scheduling options.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.fifthelement.trimmer"" rel=""noreferrer"">TRIM</a> - Some older kernels do not have TRIM.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=eu.chainfire.stickmount"" rel=""noreferrer"">StickMount</a> - Automatically mount USB flash drives, keyboards, mouse via <a href=""http://en.wikipedia.org/wiki/USB_On-The-Go"" rel=""noreferrer"">USB OTG</a> cable.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=stericson.busybox&amp;hl=en"" rel=""noreferrer"">BusyBox</a> - Makes terminal emulators feel more like linux.</li>
+<li>Sideloading apps.  Most carriers/phones allow this option but AT&amp;T does not.</li>
+</ul>
+<h2>ROMs</h2>
+<p>Though root is not required for flashing new ROMs, many apps that make it easier do require root.</p>
+<p><a href=""http://www.cyanogenmod.com/"" rel=""noreferrer"">CyanogenMod</a> is a very popular rom that many people put on their phones.  It is also easy to install via the <a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> app.  First install the Clockwork recovery.  <strong>Then run a backup before you flash any roms.</strong></p>
+<p>Also check out <a href=""/q/17152"">&quot;Where can I find stock or custom ROMs for my device&quot;</a> or <a href=""http://forum.xda-developers.com/"" rel=""noreferrer"">the XDA forums</a> for other custom roms.  Most devices have a specific &quot;Android Development&quot; sub-forum where ROMs are posted.</p>
+<p><em>Always do a nandroid backup before installing any rom or mod!</em>  You may also need to wipe all data and cache from your phone before installing or upgrading a ROM.</p>
+<strong>Custom Kernels</strong><br><br>
+<p>One popular set of kernels is those provided by <a href=""http://chevyno1.richstevenson.com/froyo/kernels/"" rel=""noreferrer"">ChevyNo1</a>. You can also download them via the premium version of the ROM Manager.  <strong>Make a nandroid (ClockworkMod) backup before using these kernels!</strong> You'll also want to get SetCPU to make the most out of these kernels.</p>
+<p>Start with the low voltage kernels at the lowest speed and work your way up to the 1.2GHz.  If your phone is stable up to the 1.2GHz range, then try some of the ultra low voltage kernels.  If you start getting force closes, then switch back to a low voltage kernel.</p>
+<p>Basically each phone (of the same phone brand/model) varies by which kernel it can handle due to the manufacturing differences between processors. So I may have a Motorola Droid that can run ultra low voltage kernels and yours may not be able to run them.  These phones weren't necessarily designed to run like this.</p>
+",,15954,"Ohhh, the VNC Server is making me seriously consider rooting my phone!",13
+11,13,,"<h1><strong>Things that Require Root</strong></h1>
+<h2>Root File Explorers</h2>
+<p>You can remount your <code>/system/</code> directory read-write, which will allow you to <a href=""http://wiki.cyanogenmod.org/w/Barebones"" rel=""noreferrer"">remove carrier-shipped applications</a> you don't like and so on.  Root file explorers can allow you to view all folders on your phone, such as <code>/data/</code> which is normally protected.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.blogspot.superthomaslab.mountsystemrorw"" rel=""noreferrer"">Mount /system RO/RW</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.speedsoftware.rootexplorer"" rel=""noreferrer"">Root Explorer</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.estrongs.android.pop"" rel=""noreferrer"">ES File Explorer</a></li>
+</ul>
+<h2>Patching Apps</h2>
+<p>With root access you can patch other apps to gain special access to functions, or removal of self-protection for some apps.</p>
+<ul>
+<li><a href=""https://in-appstore.com/android/"" rel=""noreferrer"">Freedom</a> - Get iAP (in-App Purchase) for free! Buy diamonds, rubies and Pro unlocks without real money. Note: Legal restrictions may apply depending on your country/region.</li>
+<li><a href=""https://www.luckypatchers.com/download/"" rel=""noreferrer"">Lucky Patcher</a> - Patch apps so that they don't require Google Play Services / displays no more ads / automatically become Pro version / work at certain DPI... There's many you can do with Lucky Patcher and there's even a bunch of patches provided already.</li>
+</ul>
+<h2>Moving &amp; Removing Apps</h2>
+<p>Access to /system also means you can move apps or updates to system apps from /data to /system (with caution!), if the partition has enough space.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall or freeze system apps, integrate updates into your ROM to save space, move apps to SD, and more.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.lrenault.tools.apps2rom&amp;hl=en"" rel=""noreferrer"">apps2rom</a> - does for free what the pro version of titanium backup does: lets you move apps to the system partition.</li>
+<li><a href=""http://www.bloatfreezer.com/"" rel=""noreferrer"">Bloatfreezer</a> - Freeze or remove system apps</li>
+<li><a href=""http://www.link2sd.info/faq"" rel=""noreferrer"">Link2SD</a> - Move (system) applications to a second partition in SD card, liberating loads of free space in <code>/system</code> partition.</li>
+</ul>
+<p>Note that moving apps to the sdcard has risks and cons, and should be undertaken only if space is needed. Most modern devices have enough memory for many apps (16GB+), providing that photos/videos/music are stored on an external sdcard.</p>
+<h2>Tethering</h2>
+<p>Some devices already have Wi-Fi tethering out-of-the-box, like the Samsung Galaxy S, so this isn't such a big deal on them unless the carrier charges for the feature.</p>
+<ul>
+<li><a href=""http://code.google.com/p/android-wifi-tether/"" rel=""noreferrer"">Android Wi-Fi Tether</a></li>
+<li><s><a href=""http://www.appbrain.com/app/android.tether"" rel=""noreferrer"">Wireless Tether</a></s></li>
+</ul>
+<h2>Screenshots &amp; screen recording</h2>
+<p>root is needed for screenshots before 4.0-Ice Cream Sandwich.
+Most pre-lollipop screen recorders also require root.</p>
+<ul>
+<li><a href=""http://www.appbrain.com/app/com.bw.picme.local"" rel=""noreferrer"">ShootMe</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.gmail.drocap.drocap2"" rel=""noreferrer"">Drocap2</a></li>
+</ul>
+<h2>Backups</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall system apps, integrate updates into your ROM to save space, and so on.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ClockworkMod Recovery (ROM Manager)</a> - Usually requires root to install via ROM Manager.  Allows you to backup the entire device, including your ROM, as well as flash new ROMs and other advanced tasks.</li>
+</ul>
+<p>There are also many apps that claim to make a full nandroid backup.</p>
+<h2>Application/Network Control</h2>
+<ul>
+<li><p><a href=""http://www.appbrain.com/app/com.bigtincan.android.adfree"" rel=""noreferrer"">AdFree</a> - Removes ads by changing the hosts file (so both ads in apps and in browser)</p>
+</li>
+<li><p><a href=""http://forum.xda-developers.com/showthread.php?t=2190753"" rel=""noreferrer"">Adaway</a> - Also blocks in-app adds.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.googlecode.droidwall.free"" rel=""noreferrer"">Droid Wall</a> - Firewall application.  Got an app that's using up all your data when you're not even using it?  Block it with this!</p>
+</li>
+<li><p><a href=""https://www.torproject.org/docs/android.html"" rel=""noreferrer"">Orbot</a> - Tor app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.aac.cachemate.demo"" rel=""noreferrer"">Cache Mate</a> - Clear cache of all apps</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=org.onaips.vnc"" rel=""noreferrer"">Droid VNC Server</a> - Connect to your phone via VNC</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.lbe.security"" rel=""noreferrer"">LBE Security Master</a> - Selectively revoke permissions from app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.smart.swkey"" rel=""noreferrer"">Button Savior</a> - Helps to add on screen button to compensate a failure of a physical button.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=ru.org.amip.ClockSync"" rel=""noreferrer"">ClockSync</a> - to automatically sync the device's time with few predefined atomic clocks.</p>
+</li>
+</ul>
+<h2>Xposed Framework</h2>
+<p>The Xposed framework allows apps with advanced tweaking functionality to be installed.</p>
+<ul>
+<li>GravityBox (for Android <a href=""http://repo.xposed.info/module/com.ceco.gm2.gravitybox"" rel=""noreferrer"">4.2</a> <a href=""http://repo.xposed.info/module/com.ceco.kitkat.gravitybox"" rel=""noreferrer"">4.4</a> <a href=""http://repo.xposed.info/module/com.ceco.lollipop.gravitybox"" rel=""noreferrer"">5.0 5.1</a> <a href=""http://repo.xposed.info/module/com.ceco.marshmallow.gravitybox"" rel=""noreferrer"">6.0</a>) - An app that provides many system tweaks.</li>
+<li><a href=""http://repo.xposed.info/module/com.pyler.xinstaller"" rel=""noreferrer"">XInstaller</a> - Various tweaks for Package Installer.</li>
+<li><a href=""http://repo.xposed.info/module/com.versobit.kmark.xhangouts"" rel=""noreferrer"">XHangouts</a> - Improved version of google hangouts.</li>
+<li><s>XWhatsApp</s> - Mod for the popular whatsapp messenger.</li>
+<li><a href=""http://repo.xposed.info/module/biz.bokhorst.xprivacy"" rel=""noreferrer"">XPrivacy</a> - Finegrained app control.</li>
+</ul>
+<h2>CPU Control</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.mhuang.overclocking"" rel=""noreferrer"">SetCPU</a> - Control the processor speed of the phone, can also setup profiles.  It allows underclocking based on conditions, e.g. underclock to 125mhz when screen is turned off. It dramatically increases battery life without affecting performance (when you're actually using apps / the phone) or can improve performance via overclocking.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=org.freecoder.widgets.overclock"" rel=""noreferrer"">Overclock Widget</a> - Similar to SetCPU but less functional</li>
+</ul>
+<h2>Enable swap file / partition</h2>
+<ul>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.swapit.expander.de"" rel=""noreferrer"">ROEHSOFT RAM-EXPANDER (SWAP)</a> - Use SD card for more RAM.</p>
+</li>
+<li><p><s><a href=""https://play.google.com/store/apps/details?id=com.Memory_Swapper_Free_120510"" rel=""noreferrer"">Memory Swapper Free</a> - support swap file.</s></p>
+</li>
+</ul>
+<h2>Advanced and Miscellaneous</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> - Facilitates installing new ROMs with ClockworkMod Recovery, and allows you to back up your entire device (ROM + apps + data) and other advanced tasks.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.siriusapplications.quickboot"" rel=""noreferrer"">Quick Boot</a> - Allows you to reboot into recovery or the bootloader / Download Mode.</li>
+<li><s><a href=""http://www.appbrain.com/app/net.geekherd.softbuttonshack"" rel=""noreferrer"">LED Hack</a> - Disable LED on phone</s> (no longer available on Android Market)</li>
+<li>Lag fixes - Various tweaks and filesystem changes to speed up your phone or prevent issues with your phone pausing / freezing temporarily.  These are particularly useful on some Samsung phones that use an RFS filesystem.  An Ext4 lagfix like <a href=""http://project-voodoo.org/"" rel=""noreferrer"">Voodoo</a> is recommended, but there are also Ext2 lagfixes like <a href=""http://forum.xda-developers.com/showthread.php?t=784691"" rel=""noreferrer"">RyanZA's One Click Lag Fix</a> which also allows you to change advanced memory, Wi-Fi, and disk scheduling options.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.fifthelement.trimmer"" rel=""noreferrer"">TRIM</a> - Some older kernels do not have TRIM.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=eu.chainfire.stickmount"" rel=""noreferrer"">StickMount</a> - Automatically mount USB flash drives, keyboards, mouse via <a href=""http://en.wikipedia.org/wiki/USB_On-The-Go"" rel=""noreferrer"">USB OTG</a> cable.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=stericson.busybox&amp;hl=en"" rel=""noreferrer"">BusyBox</a> - Makes terminal emulators feel more like linux.</li>
+<li>Sideloading apps.  Most carriers/phones allow this option but AT&amp;T does not.</li>
+</ul>
+<h2>ROMs</h2>
+<p>Though root is not required for flashing new ROMs, many apps that make it easier do require root.</p>
+<p><a href=""http://www.cyanogenmod.com/"" rel=""noreferrer"">CyanogenMod</a> is a very popular rom that many people put on their phones.  It is also easy to install via the <a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> app.  First install the Clockwork recovery.  <strong>Then run a backup before you flash any roms.</strong></p>
+<p>Also check out <a href=""/q/17152"">&quot;Where can I find stock or custom ROMs for my device&quot;</a> or <a href=""http://forum.xda-developers.com/"" rel=""noreferrer"">the XDA forums</a> for other custom roms.  Most devices have a specific &quot;Android Development&quot; sub-forum where ROMs are posted.</p>
+<p><em>Always do a nandroid backup before installing any rom or mod!</em>  You may also need to wipe all data and cache from your phone before installing or upgrading a ROM.</p>
+<strong>Custom Kernels</strong><br><br>
+<p>One popular set of kernels is those provided by <a href=""http://chevyno1.richstevenson.com/froyo/kernels/"" rel=""noreferrer"">ChevyNo1</a>. You can also download them via the premium version of the ROM Manager.  <strong>Make a nandroid (ClockworkMod) backup before using these kernels!</strong> You'll also want to get SetCPU to make the most out of these kernels.</p>
+<p>Start with the low voltage kernels at the lowest speed and work your way up to the 1.2GHz.  If your phone is stable up to the 1.2GHz range, then try some of the ultra low voltage kernels.  If you start getting force closes, then switch back to a low voltage kernel.</p>
+<p>Basically each phone (of the same phone brand/model) varies by which kernel it can handle due to the manufacturing differences between processors. So I may have a Motorola Droid that can run ultra low voltage kernels and yours may not be able to run them.  These phones weren't necessarily designed to run like this.</p>
+",,24156,You've forgot `Terminal Emulator` with `su` command..,13
+12,13,,"<h1><strong>Things that Require Root</strong></h1>
+<h2>Root File Explorers</h2>
+<p>You can remount your <code>/system/</code> directory read-write, which will allow you to <a href=""http://wiki.cyanogenmod.org/w/Barebones"" rel=""noreferrer"">remove carrier-shipped applications</a> you don't like and so on.  Root file explorers can allow you to view all folders on your phone, such as <code>/data/</code> which is normally protected.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.blogspot.superthomaslab.mountsystemrorw"" rel=""noreferrer"">Mount /system RO/RW</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.speedsoftware.rootexplorer"" rel=""noreferrer"">Root Explorer</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.estrongs.android.pop"" rel=""noreferrer"">ES File Explorer</a></li>
+</ul>
+<h2>Patching Apps</h2>
+<p>With root access you can patch other apps to gain special access to functions, or removal of self-protection for some apps.</p>
+<ul>
+<li><a href=""https://in-appstore.com/android/"" rel=""noreferrer"">Freedom</a> - Get iAP (in-App Purchase) for free! Buy diamonds, rubies and Pro unlocks without real money. Note: Legal restrictions may apply depending on your country/region.</li>
+<li><a href=""https://www.luckypatchers.com/download/"" rel=""noreferrer"">Lucky Patcher</a> - Patch apps so that they don't require Google Play Services / displays no more ads / automatically become Pro version / work at certain DPI... There's many you can do with Lucky Patcher and there's even a bunch of patches provided already.</li>
+</ul>
+<h2>Moving &amp; Removing Apps</h2>
+<p>Access to /system also means you can move apps or updates to system apps from /data to /system (with caution!), if the partition has enough space.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall or freeze system apps, integrate updates into your ROM to save space, move apps to SD, and more.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.lrenault.tools.apps2rom&amp;hl=en"" rel=""noreferrer"">apps2rom</a> - does for free what the pro version of titanium backup does: lets you move apps to the system partition.</li>
+<li><a href=""http://www.bloatfreezer.com/"" rel=""noreferrer"">Bloatfreezer</a> - Freeze or remove system apps</li>
+<li><a href=""http://www.link2sd.info/faq"" rel=""noreferrer"">Link2SD</a> - Move (system) applications to a second partition in SD card, liberating loads of free space in <code>/system</code> partition.</li>
+</ul>
+<p>Note that moving apps to the sdcard has risks and cons, and should be undertaken only if space is needed. Most modern devices have enough memory for many apps (16GB+), providing that photos/videos/music are stored on an external sdcard.</p>
+<h2>Tethering</h2>
+<p>Some devices already have Wi-Fi tethering out-of-the-box, like the Samsung Galaxy S, so this isn't such a big deal on them unless the carrier charges for the feature.</p>
+<ul>
+<li><a href=""http://code.google.com/p/android-wifi-tether/"" rel=""noreferrer"">Android Wi-Fi Tether</a></li>
+<li><s><a href=""http://www.appbrain.com/app/android.tether"" rel=""noreferrer"">Wireless Tether</a></s></li>
+</ul>
+<h2>Screenshots &amp; screen recording</h2>
+<p>root is needed for screenshots before 4.0-Ice Cream Sandwich.
+Most pre-lollipop screen recorders also require root.</p>
+<ul>
+<li><a href=""http://www.appbrain.com/app/com.bw.picme.local"" rel=""noreferrer"">ShootMe</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.gmail.drocap.drocap2"" rel=""noreferrer"">Drocap2</a></li>
+</ul>
+<h2>Backups</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall system apps, integrate updates into your ROM to save space, and so on.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ClockworkMod Recovery (ROM Manager)</a> - Usually requires root to install via ROM Manager.  Allows you to backup the entire device, including your ROM, as well as flash new ROMs and other advanced tasks.</li>
+</ul>
+<p>There are also many apps that claim to make a full nandroid backup.</p>
+<h2>Application/Network Control</h2>
+<ul>
+<li><p><a href=""http://www.appbrain.com/app/com.bigtincan.android.adfree"" rel=""noreferrer"">AdFree</a> - Removes ads by changing the hosts file (so both ads in apps and in browser)</p>
+</li>
+<li><p><a href=""http://forum.xda-developers.com/showthread.php?t=2190753"" rel=""noreferrer"">Adaway</a> - Also blocks in-app adds.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.googlecode.droidwall.free"" rel=""noreferrer"">Droid Wall</a> - Firewall application.  Got an app that's using up all your data when you're not even using it?  Block it with this!</p>
+</li>
+<li><p><a href=""https://www.torproject.org/docs/android.html"" rel=""noreferrer"">Orbot</a> - Tor app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.aac.cachemate.demo"" rel=""noreferrer"">Cache Mate</a> - Clear cache of all apps</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=org.onaips.vnc"" rel=""noreferrer"">Droid VNC Server</a> - Connect to your phone via VNC</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.lbe.security"" rel=""noreferrer"">LBE Security Master</a> - Selectively revoke permissions from app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.smart.swkey"" rel=""noreferrer"">Button Savior</a> - Helps to add on screen button to compensate a failure of a physical button.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=ru.org.amip.ClockSync"" rel=""noreferrer"">ClockSync</a> - to automatically sync the device's time with few predefined atomic clocks.</p>
+</li>
+</ul>
+<h2>Xposed Framework</h2>
+<p>The Xposed framework allows apps with advanced tweaking functionality to be installed.</p>
+<ul>
+<li>GravityBox (for Android <a href=""http://repo.xposed.info/module/com.ceco.gm2.gravitybox"" rel=""noreferrer"">4.2</a> <a href=""http://repo.xposed.info/module/com.ceco.kitkat.gravitybox"" rel=""noreferrer"">4.4</a> <a href=""http://repo.xposed.info/module/com.ceco.lollipop.gravitybox"" rel=""noreferrer"">5.0 5.1</a> <a href=""http://repo.xposed.info/module/com.ceco.marshmallow.gravitybox"" rel=""noreferrer"">6.0</a>) - An app that provides many system tweaks.</li>
+<li><a href=""http://repo.xposed.info/module/com.pyler.xinstaller"" rel=""noreferrer"">XInstaller</a> - Various tweaks for Package Installer.</li>
+<li><a href=""http://repo.xposed.info/module/com.versobit.kmark.xhangouts"" rel=""noreferrer"">XHangouts</a> - Improved version of google hangouts.</li>
+<li><s>XWhatsApp</s> - Mod for the popular whatsapp messenger.</li>
+<li><a href=""http://repo.xposed.info/module/biz.bokhorst.xprivacy"" rel=""noreferrer"">XPrivacy</a> - Finegrained app control.</li>
+</ul>
+<h2>CPU Control</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.mhuang.overclocking"" rel=""noreferrer"">SetCPU</a> - Control the processor speed of the phone, can also setup profiles.  It allows underclocking based on conditions, e.g. underclock to 125mhz when screen is turned off. It dramatically increases battery life without affecting performance (when you're actually using apps / the phone) or can improve performance via overclocking.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=org.freecoder.widgets.overclock"" rel=""noreferrer"">Overclock Widget</a> - Similar to SetCPU but less functional</li>
+</ul>
+<h2>Enable swap file / partition</h2>
+<ul>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.swapit.expander.de"" rel=""noreferrer"">ROEHSOFT RAM-EXPANDER (SWAP)</a> - Use SD card for more RAM.</p>
+</li>
+<li><p><s><a href=""https://play.google.com/store/apps/details?id=com.Memory_Swapper_Free_120510"" rel=""noreferrer"">Memory Swapper Free</a> - support swap file.</s></p>
+</li>
+</ul>
+<h2>Advanced and Miscellaneous</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> - Facilitates installing new ROMs with ClockworkMod Recovery, and allows you to back up your entire device (ROM + apps + data) and other advanced tasks.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.siriusapplications.quickboot"" rel=""noreferrer"">Quick Boot</a> - Allows you to reboot into recovery or the bootloader / Download Mode.</li>
+<li><s><a href=""http://www.appbrain.com/app/net.geekherd.softbuttonshack"" rel=""noreferrer"">LED Hack</a> - Disable LED on phone</s> (no longer available on Android Market)</li>
+<li>Lag fixes - Various tweaks and filesystem changes to speed up your phone or prevent issues with your phone pausing / freezing temporarily.  These are particularly useful on some Samsung phones that use an RFS filesystem.  An Ext4 lagfix like <a href=""http://project-voodoo.org/"" rel=""noreferrer"">Voodoo</a> is recommended, but there are also Ext2 lagfixes like <a href=""http://forum.xda-developers.com/showthread.php?t=784691"" rel=""noreferrer"">RyanZA's One Click Lag Fix</a> which also allows you to change advanced memory, Wi-Fi, and disk scheduling options.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.fifthelement.trimmer"" rel=""noreferrer"">TRIM</a> - Some older kernels do not have TRIM.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=eu.chainfire.stickmount"" rel=""noreferrer"">StickMount</a> - Automatically mount USB flash drives, keyboards, mouse via <a href=""http://en.wikipedia.org/wiki/USB_On-The-Go"" rel=""noreferrer"">USB OTG</a> cable.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=stericson.busybox&amp;hl=en"" rel=""noreferrer"">BusyBox</a> - Makes terminal emulators feel more like linux.</li>
+<li>Sideloading apps.  Most carriers/phones allow this option but AT&amp;T does not.</li>
+</ul>
+<h2>ROMs</h2>
+<p>Though root is not required for flashing new ROMs, many apps that make it easier do require root.</p>
+<p><a href=""http://www.cyanogenmod.com/"" rel=""noreferrer"">CyanogenMod</a> is a very popular rom that many people put on their phones.  It is also easy to install via the <a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> app.  First install the Clockwork recovery.  <strong>Then run a backup before you flash any roms.</strong></p>
+<p>Also check out <a href=""/q/17152"">&quot;Where can I find stock or custom ROMs for my device&quot;</a> or <a href=""http://forum.xda-developers.com/"" rel=""noreferrer"">the XDA forums</a> for other custom roms.  Most devices have a specific &quot;Android Development&quot; sub-forum where ROMs are posted.</p>
+<p><em>Always do a nandroid backup before installing any rom or mod!</em>  You may also need to wipe all data and cache from your phone before installing or upgrading a ROM.</p>
+<strong>Custom Kernels</strong><br><br>
+<p>One popular set of kernels is those provided by <a href=""http://chevyno1.richstevenson.com/froyo/kernels/"" rel=""noreferrer"">ChevyNo1</a>. You can also download them via the premium version of the ROM Manager.  <strong>Make a nandroid (ClockworkMod) backup before using these kernels!</strong> You'll also want to get SetCPU to make the most out of these kernels.</p>
+<p>Start with the low voltage kernels at the lowest speed and work your way up to the 1.2GHz.  If your phone is stable up to the 1.2GHz range, then try some of the ultra low voltage kernels.  If you start getting force closes, then switch back to a low voltage kernel.</p>
+<p>Basically each phone (of the same phone brand/model) varies by which kernel it can handle due to the manufacturing differences between processors. So I may have a Motorola Droid that can run ultra low voltage kernels and yours may not be able to run them.  These phones weren't necessarily designed to run like this.</p>
+",,27111,You could also add the ability to join ad hoc wifi networks.,13
+13,13,,"<h1><strong>Things that Require Root</strong></h1>
+<h2>Root File Explorers</h2>
+<p>You can remount your <code>/system/</code> directory read-write, which will allow you to <a href=""http://wiki.cyanogenmod.org/w/Barebones"" rel=""noreferrer"">remove carrier-shipped applications</a> you don't like and so on.  Root file explorers can allow you to view all folders on your phone, such as <code>/data/</code> which is normally protected.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.blogspot.superthomaslab.mountsystemrorw"" rel=""noreferrer"">Mount /system RO/RW</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.speedsoftware.rootexplorer"" rel=""noreferrer"">Root Explorer</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.estrongs.android.pop"" rel=""noreferrer"">ES File Explorer</a></li>
+</ul>
+<h2>Patching Apps</h2>
+<p>With root access you can patch other apps to gain special access to functions, or removal of self-protection for some apps.</p>
+<ul>
+<li><a href=""https://in-appstore.com/android/"" rel=""noreferrer"">Freedom</a> - Get iAP (in-App Purchase) for free! Buy diamonds, rubies and Pro unlocks without real money. Note: Legal restrictions may apply depending on your country/region.</li>
+<li><a href=""https://www.luckypatchers.com/download/"" rel=""noreferrer"">Lucky Patcher</a> - Patch apps so that they don't require Google Play Services / displays no more ads / automatically become Pro version / work at certain DPI... There's many you can do with Lucky Patcher and there's even a bunch of patches provided already.</li>
+</ul>
+<h2>Moving &amp; Removing Apps</h2>
+<p>Access to /system also means you can move apps or updates to system apps from /data to /system (with caution!), if the partition has enough space.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall or freeze system apps, integrate updates into your ROM to save space, move apps to SD, and more.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.lrenault.tools.apps2rom&amp;hl=en"" rel=""noreferrer"">apps2rom</a> - does for free what the pro version of titanium backup does: lets you move apps to the system partition.</li>
+<li><a href=""http://www.bloatfreezer.com/"" rel=""noreferrer"">Bloatfreezer</a> - Freeze or remove system apps</li>
+<li><a href=""http://www.link2sd.info/faq"" rel=""noreferrer"">Link2SD</a> - Move (system) applications to a second partition in SD card, liberating loads of free space in <code>/system</code> partition.</li>
+</ul>
+<p>Note that moving apps to the sdcard has risks and cons, and should be undertaken only if space is needed. Most modern devices have enough memory for many apps (16GB+), providing that photos/videos/music are stored on an external sdcard.</p>
+<h2>Tethering</h2>
+<p>Some devices already have Wi-Fi tethering out-of-the-box, like the Samsung Galaxy S, so this isn't such a big deal on them unless the carrier charges for the feature.</p>
+<ul>
+<li><a href=""http://code.google.com/p/android-wifi-tether/"" rel=""noreferrer"">Android Wi-Fi Tether</a></li>
+<li><s><a href=""http://www.appbrain.com/app/android.tether"" rel=""noreferrer"">Wireless Tether</a></s></li>
+</ul>
+<h2>Screenshots &amp; screen recording</h2>
+<p>root is needed for screenshots before 4.0-Ice Cream Sandwich.
+Most pre-lollipop screen recorders also require root.</p>
+<ul>
+<li><a href=""http://www.appbrain.com/app/com.bw.picme.local"" rel=""noreferrer"">ShootMe</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.gmail.drocap.drocap2"" rel=""noreferrer"">Drocap2</a></li>
+</ul>
+<h2>Backups</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall system apps, integrate updates into your ROM to save space, and so on.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ClockworkMod Recovery (ROM Manager)</a> - Usually requires root to install via ROM Manager.  Allows you to backup the entire device, including your ROM, as well as flash new ROMs and other advanced tasks.</li>
+</ul>
+<p>There are also many apps that claim to make a full nandroid backup.</p>
+<h2>Application/Network Control</h2>
+<ul>
+<li><p><a href=""http://www.appbrain.com/app/com.bigtincan.android.adfree"" rel=""noreferrer"">AdFree</a> - Removes ads by changing the hosts file (so both ads in apps and in browser)</p>
+</li>
+<li><p><a href=""http://forum.xda-developers.com/showthread.php?t=2190753"" rel=""noreferrer"">Adaway</a> - Also blocks in-app adds.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.googlecode.droidwall.free"" rel=""noreferrer"">Droid Wall</a> - Firewall application.  Got an app that's using up all your data when you're not even using it?  Block it with this!</p>
+</li>
+<li><p><a href=""https://www.torproject.org/docs/android.html"" rel=""noreferrer"">Orbot</a> - Tor app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.aac.cachemate.demo"" rel=""noreferrer"">Cache Mate</a> - Clear cache of all apps</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=org.onaips.vnc"" rel=""noreferrer"">Droid VNC Server</a> - Connect to your phone via VNC</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.lbe.security"" rel=""noreferrer"">LBE Security Master</a> - Selectively revoke permissions from app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.smart.swkey"" rel=""noreferrer"">Button Savior</a> - Helps to add on screen button to compensate a failure of a physical button.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=ru.org.amip.ClockSync"" rel=""noreferrer"">ClockSync</a> - to automatically sync the device's time with few predefined atomic clocks.</p>
+</li>
+</ul>
+<h2>Xposed Framework</h2>
+<p>The Xposed framework allows apps with advanced tweaking functionality to be installed.</p>
+<ul>
+<li>GravityBox (for Android <a href=""http://repo.xposed.info/module/com.ceco.gm2.gravitybox"" rel=""noreferrer"">4.2</a> <a href=""http://repo.xposed.info/module/com.ceco.kitkat.gravitybox"" rel=""noreferrer"">4.4</a> <a href=""http://repo.xposed.info/module/com.ceco.lollipop.gravitybox"" rel=""noreferrer"">5.0 5.1</a> <a href=""http://repo.xposed.info/module/com.ceco.marshmallow.gravitybox"" rel=""noreferrer"">6.0</a>) - An app that provides many system tweaks.</li>
+<li><a href=""http://repo.xposed.info/module/com.pyler.xinstaller"" rel=""noreferrer"">XInstaller</a> - Various tweaks for Package Installer.</li>
+<li><a href=""http://repo.xposed.info/module/com.versobit.kmark.xhangouts"" rel=""noreferrer"">XHangouts</a> - Improved version of google hangouts.</li>
+<li><s>XWhatsApp</s> - Mod for the popular whatsapp messenger.</li>
+<li><a href=""http://repo.xposed.info/module/biz.bokhorst.xprivacy"" rel=""noreferrer"">XPrivacy</a> - Finegrained app control.</li>
+</ul>
+<h2>CPU Control</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.mhuang.overclocking"" rel=""noreferrer"">SetCPU</a> - Control the processor speed of the phone, can also setup profiles.  It allows underclocking based on conditions, e.g. underclock to 125mhz when screen is turned off. It dramatically increases battery life without affecting performance (when you're actually using apps / the phone) or can improve performance via overclocking.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=org.freecoder.widgets.overclock"" rel=""noreferrer"">Overclock Widget</a> - Similar to SetCPU but less functional</li>
+</ul>
+<h2>Enable swap file / partition</h2>
+<ul>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.swapit.expander.de"" rel=""noreferrer"">ROEHSOFT RAM-EXPANDER (SWAP)</a> - Use SD card for more RAM.</p>
+</li>
+<li><p><s><a href=""https://play.google.com/store/apps/details?id=com.Memory_Swapper_Free_120510"" rel=""noreferrer"">Memory Swapper Free</a> - support swap file.</s></p>
+</li>
+</ul>
+<h2>Advanced and Miscellaneous</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> - Facilitates installing new ROMs with ClockworkMod Recovery, and allows you to back up your entire device (ROM + apps + data) and other advanced tasks.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.siriusapplications.quickboot"" rel=""noreferrer"">Quick Boot</a> - Allows you to reboot into recovery or the bootloader / Download Mode.</li>
+<li><s><a href=""http://www.appbrain.com/app/net.geekherd.softbuttonshack"" rel=""noreferrer"">LED Hack</a> - Disable LED on phone</s> (no longer available on Android Market)</li>
+<li>Lag fixes - Various tweaks and filesystem changes to speed up your phone or prevent issues with your phone pausing / freezing temporarily.  These are particularly useful on some Samsung phones that use an RFS filesystem.  An Ext4 lagfix like <a href=""http://project-voodoo.org/"" rel=""noreferrer"">Voodoo</a> is recommended, but there are also Ext2 lagfixes like <a href=""http://forum.xda-developers.com/showthread.php?t=784691"" rel=""noreferrer"">RyanZA's One Click Lag Fix</a> which also allows you to change advanced memory, Wi-Fi, and disk scheduling options.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.fifthelement.trimmer"" rel=""noreferrer"">TRIM</a> - Some older kernels do not have TRIM.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=eu.chainfire.stickmount"" rel=""noreferrer"">StickMount</a> - Automatically mount USB flash drives, keyboards, mouse via <a href=""http://en.wikipedia.org/wiki/USB_On-The-Go"" rel=""noreferrer"">USB OTG</a> cable.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=stericson.busybox&amp;hl=en"" rel=""noreferrer"">BusyBox</a> - Makes terminal emulators feel more like linux.</li>
+<li>Sideloading apps.  Most carriers/phones allow this option but AT&amp;T does not.</li>
+</ul>
+<h2>ROMs</h2>
+<p>Though root is not required for flashing new ROMs, many apps that make it easier do require root.</p>
+<p><a href=""http://www.cyanogenmod.com/"" rel=""noreferrer"">CyanogenMod</a> is a very popular rom that many people put on their phones.  It is also easy to install via the <a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> app.  First install the Clockwork recovery.  <strong>Then run a backup before you flash any roms.</strong></p>
+<p>Also check out <a href=""/q/17152"">&quot;Where can I find stock or custom ROMs for my device&quot;</a> or <a href=""http://forum.xda-developers.com/"" rel=""noreferrer"">the XDA forums</a> for other custom roms.  Most devices have a specific &quot;Android Development&quot; sub-forum where ROMs are posted.</p>
+<p><em>Always do a nandroid backup before installing any rom or mod!</em>  You may also need to wipe all data and cache from your phone before installing or upgrading a ROM.</p>
+<strong>Custom Kernels</strong><br><br>
+<p>One popular set of kernels is those provided by <a href=""http://chevyno1.richstevenson.com/froyo/kernels/"" rel=""noreferrer"">ChevyNo1</a>. You can also download them via the premium version of the ROM Manager.  <strong>Make a nandroid (ClockworkMod) backup before using these kernels!</strong> You'll also want to get SetCPU to make the most out of these kernels.</p>
+<p>Start with the low voltage kernels at the lowest speed and work your way up to the 1.2GHz.  If your phone is stable up to the 1.2GHz range, then try some of the ultra low voltage kernels.  If you start getting force closes, then switch back to a low voltage kernel.</p>
+<p>Basically each phone (of the same phone brand/model) varies by which kernel it can handle due to the manufacturing differences between processors. So I may have a Motorola Droid that can run ultra low voltage kernels and yours may not be able to run them.  These phones weren't necessarily designed to run like this.</p>
+",,59431,"@SachinShekhar said: ""You've forgot Terminal Emulator with su command"" -- See http://android.stackexchange.com/a/13349/13117 .",13
+14,13,,"<h1><strong>Things that Require Root</strong></h1>
+<h2>Root File Explorers</h2>
+<p>You can remount your <code>/system/</code> directory read-write, which will allow you to <a href=""http://wiki.cyanogenmod.org/w/Barebones"" rel=""noreferrer"">remove carrier-shipped applications</a> you don't like and so on.  Root file explorers can allow you to view all folders on your phone, such as <code>/data/</code> which is normally protected.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.blogspot.superthomaslab.mountsystemrorw"" rel=""noreferrer"">Mount /system RO/RW</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.speedsoftware.rootexplorer"" rel=""noreferrer"">Root Explorer</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.estrongs.android.pop"" rel=""noreferrer"">ES File Explorer</a></li>
+</ul>
+<h2>Patching Apps</h2>
+<p>With root access you can patch other apps to gain special access to functions, or removal of self-protection for some apps.</p>
+<ul>
+<li><a href=""https://in-appstore.com/android/"" rel=""noreferrer"">Freedom</a> - Get iAP (in-App Purchase) for free! Buy diamonds, rubies and Pro unlocks without real money. Note: Legal restrictions may apply depending on your country/region.</li>
+<li><a href=""https://www.luckypatchers.com/download/"" rel=""noreferrer"">Lucky Patcher</a> - Patch apps so that they don't require Google Play Services / displays no more ads / automatically become Pro version / work at certain DPI... There's many you can do with Lucky Patcher and there's even a bunch of patches provided already.</li>
+</ul>
+<h2>Moving &amp; Removing Apps</h2>
+<p>Access to /system also means you can move apps or updates to system apps from /data to /system (with caution!), if the partition has enough space.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall or freeze system apps, integrate updates into your ROM to save space, move apps to SD, and more.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.lrenault.tools.apps2rom&amp;hl=en"" rel=""noreferrer"">apps2rom</a> - does for free what the pro version of titanium backup does: lets you move apps to the system partition.</li>
+<li><a href=""http://www.bloatfreezer.com/"" rel=""noreferrer"">Bloatfreezer</a> - Freeze or remove system apps</li>
+<li><a href=""http://www.link2sd.info/faq"" rel=""noreferrer"">Link2SD</a> - Move (system) applications to a second partition in SD card, liberating loads of free space in <code>/system</code> partition.</li>
+</ul>
+<p>Note that moving apps to the sdcard has risks and cons, and should be undertaken only if space is needed. Most modern devices have enough memory for many apps (16GB+), providing that photos/videos/music are stored on an external sdcard.</p>
+<h2>Tethering</h2>
+<p>Some devices already have Wi-Fi tethering out-of-the-box, like the Samsung Galaxy S, so this isn't such a big deal on them unless the carrier charges for the feature.</p>
+<ul>
+<li><a href=""http://code.google.com/p/android-wifi-tether/"" rel=""noreferrer"">Android Wi-Fi Tether</a></li>
+<li><s><a href=""http://www.appbrain.com/app/android.tether"" rel=""noreferrer"">Wireless Tether</a></s></li>
+</ul>
+<h2>Screenshots &amp; screen recording</h2>
+<p>root is needed for screenshots before 4.0-Ice Cream Sandwich.
+Most pre-lollipop screen recorders also require root.</p>
+<ul>
+<li><a href=""http://www.appbrain.com/app/com.bw.picme.local"" rel=""noreferrer"">ShootMe</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.gmail.drocap.drocap2"" rel=""noreferrer"">Drocap2</a></li>
+</ul>
+<h2>Backups</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall system apps, integrate updates into your ROM to save space, and so on.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ClockworkMod Recovery (ROM Manager)</a> - Usually requires root to install via ROM Manager.  Allows you to backup the entire device, including your ROM, as well as flash new ROMs and other advanced tasks.</li>
+</ul>
+<p>There are also many apps that claim to make a full nandroid backup.</p>
+<h2>Application/Network Control</h2>
+<ul>
+<li><p><a href=""http://www.appbrain.com/app/com.bigtincan.android.adfree"" rel=""noreferrer"">AdFree</a> - Removes ads by changing the hosts file (so both ads in apps and in browser)</p>
+</li>
+<li><p><a href=""http://forum.xda-developers.com/showthread.php?t=2190753"" rel=""noreferrer"">Adaway</a> - Also blocks in-app adds.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.googlecode.droidwall.free"" rel=""noreferrer"">Droid Wall</a> - Firewall application.  Got an app that's using up all your data when you're not even using it?  Block it with this!</p>
+</li>
+<li><p><a href=""https://www.torproject.org/docs/android.html"" rel=""noreferrer"">Orbot</a> - Tor app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.aac.cachemate.demo"" rel=""noreferrer"">Cache Mate</a> - Clear cache of all apps</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=org.onaips.vnc"" rel=""noreferrer"">Droid VNC Server</a> - Connect to your phone via VNC</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.lbe.security"" rel=""noreferrer"">LBE Security Master</a> - Selectively revoke permissions from app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.smart.swkey"" rel=""noreferrer"">Button Savior</a> - Helps to add on screen button to compensate a failure of a physical button.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=ru.org.amip.ClockSync"" rel=""noreferrer"">ClockSync</a> - to automatically sync the device's time with few predefined atomic clocks.</p>
+</li>
+</ul>
+<h2>Xposed Framework</h2>
+<p>The Xposed framework allows apps with advanced tweaking functionality to be installed.</p>
+<ul>
+<li>GravityBox (for Android <a href=""http://repo.xposed.info/module/com.ceco.gm2.gravitybox"" rel=""noreferrer"">4.2</a> <a href=""http://repo.xposed.info/module/com.ceco.kitkat.gravitybox"" rel=""noreferrer"">4.4</a> <a href=""http://repo.xposed.info/module/com.ceco.lollipop.gravitybox"" rel=""noreferrer"">5.0 5.1</a> <a href=""http://repo.xposed.info/module/com.ceco.marshmallow.gravitybox"" rel=""noreferrer"">6.0</a>) - An app that provides many system tweaks.</li>
+<li><a href=""http://repo.xposed.info/module/com.pyler.xinstaller"" rel=""noreferrer"">XInstaller</a> - Various tweaks for Package Installer.</li>
+<li><a href=""http://repo.xposed.info/module/com.versobit.kmark.xhangouts"" rel=""noreferrer"">XHangouts</a> - Improved version of google hangouts.</li>
+<li><s>XWhatsApp</s> - Mod for the popular whatsapp messenger.</li>
+<li><a href=""http://repo.xposed.info/module/biz.bokhorst.xprivacy"" rel=""noreferrer"">XPrivacy</a> - Finegrained app control.</li>
+</ul>
+<h2>CPU Control</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.mhuang.overclocking"" rel=""noreferrer"">SetCPU</a> - Control the processor speed of the phone, can also setup profiles.  It allows underclocking based on conditions, e.g. underclock to 125mhz when screen is turned off. It dramatically increases battery life without affecting performance (when you're actually using apps / the phone) or can improve performance via overclocking.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=org.freecoder.widgets.overclock"" rel=""noreferrer"">Overclock Widget</a> - Similar to SetCPU but less functional</li>
+</ul>
+<h2>Enable swap file / partition</h2>
+<ul>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.swapit.expander.de"" rel=""noreferrer"">ROEHSOFT RAM-EXPANDER (SWAP)</a> - Use SD card for more RAM.</p>
+</li>
+<li><p><s><a href=""https://play.google.com/store/apps/details?id=com.Memory_Swapper_Free_120510"" rel=""noreferrer"">Memory Swapper Free</a> - support swap file.</s></p>
+</li>
+</ul>
+<h2>Advanced and Miscellaneous</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> - Facilitates installing new ROMs with ClockworkMod Recovery, and allows you to back up your entire device (ROM + apps + data) and other advanced tasks.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.siriusapplications.quickboot"" rel=""noreferrer"">Quick Boot</a> - Allows you to reboot into recovery or the bootloader / Download Mode.</li>
+<li><s><a href=""http://www.appbrain.com/app/net.geekherd.softbuttonshack"" rel=""noreferrer"">LED Hack</a> - Disable LED on phone</s> (no longer available on Android Market)</li>
+<li>Lag fixes - Various tweaks and filesystem changes to speed up your phone or prevent issues with your phone pausing / freezing temporarily.  These are particularly useful on some Samsung phones that use an RFS filesystem.  An Ext4 lagfix like <a href=""http://project-voodoo.org/"" rel=""noreferrer"">Voodoo</a> is recommended, but there are also Ext2 lagfixes like <a href=""http://forum.xda-developers.com/showthread.php?t=784691"" rel=""noreferrer"">RyanZA's One Click Lag Fix</a> which also allows you to change advanced memory, Wi-Fi, and disk scheduling options.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.fifthelement.trimmer"" rel=""noreferrer"">TRIM</a> - Some older kernels do not have TRIM.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=eu.chainfire.stickmount"" rel=""noreferrer"">StickMount</a> - Automatically mount USB flash drives, keyboards, mouse via <a href=""http://en.wikipedia.org/wiki/USB_On-The-Go"" rel=""noreferrer"">USB OTG</a> cable.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=stericson.busybox&amp;hl=en"" rel=""noreferrer"">BusyBox</a> - Makes terminal emulators feel more like linux.</li>
+<li>Sideloading apps.  Most carriers/phones allow this option but AT&amp;T does not.</li>
+</ul>
+<h2>ROMs</h2>
+<p>Though root is not required for flashing new ROMs, many apps that make it easier do require root.</p>
+<p><a href=""http://www.cyanogenmod.com/"" rel=""noreferrer"">CyanogenMod</a> is a very popular rom that many people put on their phones.  It is also easy to install via the <a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> app.  First install the Clockwork recovery.  <strong>Then run a backup before you flash any roms.</strong></p>
+<p>Also check out <a href=""/q/17152"">&quot;Where can I find stock or custom ROMs for my device&quot;</a> or <a href=""http://forum.xda-developers.com/"" rel=""noreferrer"">the XDA forums</a> for other custom roms.  Most devices have a specific &quot;Android Development&quot; sub-forum where ROMs are posted.</p>
+<p><em>Always do a nandroid backup before installing any rom or mod!</em>  You may also need to wipe all data and cache from your phone before installing or upgrading a ROM.</p>
+<strong>Custom Kernels</strong><br><br>
+<p>One popular set of kernels is those provided by <a href=""http://chevyno1.richstevenson.com/froyo/kernels/"" rel=""noreferrer"">ChevyNo1</a>. You can also download them via the premium version of the ROM Manager.  <strong>Make a nandroid (ClockworkMod) backup before using these kernels!</strong> You'll also want to get SetCPU to make the most out of these kernels.</p>
+<p>Start with the low voltage kernels at the lowest speed and work your way up to the 1.2GHz.  If your phone is stable up to the 1.2GHz range, then try some of the ultra low voltage kernels.  If you start getting force closes, then switch back to a low voltage kernel.</p>
+<p>Basically each phone (of the same phone brand/model) varies by which kernel it can handle due to the manufacturing differences between processors. So I may have a Motorola Droid that can run ultra low voltage kernels and yours may not be able to run them.  These phones weren't necessarily designed to run like this.</p>
+",,86075,"There is also wifi adb (which allows you to push and debug applications over wifi). Also, there is another benefit to Titanium Backup. If for some reason, a new app version removes key existing functionality, or increases the area an advertisement takes, Titanium Backup allows you to revert to the previous version of that particular application. And sometimes, rooting is great for installing unsupported features (for instance, the Note 1 initially didn't have support for NFC, although it had the chip for it, and a few years ago, very few official ROMs supported Netflix, etc).",13
+15,13,,"<h1><strong>Things that Require Root</strong></h1>
+<h2>Root File Explorers</h2>
+<p>You can remount your <code>/system/</code> directory read-write, which will allow you to <a href=""http://wiki.cyanogenmod.org/w/Barebones"" rel=""noreferrer"">remove carrier-shipped applications</a> you don't like and so on.  Root file explorers can allow you to view all folders on your phone, such as <code>/data/</code> which is normally protected.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.blogspot.superthomaslab.mountsystemrorw"" rel=""noreferrer"">Mount /system RO/RW</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.speedsoftware.rootexplorer"" rel=""noreferrer"">Root Explorer</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.estrongs.android.pop"" rel=""noreferrer"">ES File Explorer</a></li>
+</ul>
+<h2>Patching Apps</h2>
+<p>With root access you can patch other apps to gain special access to functions, or removal of self-protection for some apps.</p>
+<ul>
+<li><a href=""https://in-appstore.com/android/"" rel=""noreferrer"">Freedom</a> - Get iAP (in-App Purchase) for free! Buy diamonds, rubies and Pro unlocks without real money. Note: Legal restrictions may apply depending on your country/region.</li>
+<li><a href=""https://www.luckypatchers.com/download/"" rel=""noreferrer"">Lucky Patcher</a> - Patch apps so that they don't require Google Play Services / displays no more ads / automatically become Pro version / work at certain DPI... There's many you can do with Lucky Patcher and there's even a bunch of patches provided already.</li>
+</ul>
+<h2>Moving &amp; Removing Apps</h2>
+<p>Access to /system also means you can move apps or updates to system apps from /data to /system (with caution!), if the partition has enough space.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall or freeze system apps, integrate updates into your ROM to save space, move apps to SD, and more.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.lrenault.tools.apps2rom&amp;hl=en"" rel=""noreferrer"">apps2rom</a> - does for free what the pro version of titanium backup does: lets you move apps to the system partition.</li>
+<li><a href=""http://www.bloatfreezer.com/"" rel=""noreferrer"">Bloatfreezer</a> - Freeze or remove system apps</li>
+<li><a href=""http://www.link2sd.info/faq"" rel=""noreferrer"">Link2SD</a> - Move (system) applications to a second partition in SD card, liberating loads of free space in <code>/system</code> partition.</li>
+</ul>
+<p>Note that moving apps to the sdcard has risks and cons, and should be undertaken only if space is needed. Most modern devices have enough memory for many apps (16GB+), providing that photos/videos/music are stored on an external sdcard.</p>
+<h2>Tethering</h2>
+<p>Some devices already have Wi-Fi tethering out-of-the-box, like the Samsung Galaxy S, so this isn't such a big deal on them unless the carrier charges for the feature.</p>
+<ul>
+<li><a href=""http://code.google.com/p/android-wifi-tether/"" rel=""noreferrer"">Android Wi-Fi Tether</a></li>
+<li><s><a href=""http://www.appbrain.com/app/android.tether"" rel=""noreferrer"">Wireless Tether</a></s></li>
+</ul>
+<h2>Screenshots &amp; screen recording</h2>
+<p>root is needed for screenshots before 4.0-Ice Cream Sandwich.
+Most pre-lollipop screen recorders also require root.</p>
+<ul>
+<li><a href=""http://www.appbrain.com/app/com.bw.picme.local"" rel=""noreferrer"">ShootMe</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.gmail.drocap.drocap2"" rel=""noreferrer"">Drocap2</a></li>
+</ul>
+<h2>Backups</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall system apps, integrate updates into your ROM to save space, and so on.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ClockworkMod Recovery (ROM Manager)</a> - Usually requires root to install via ROM Manager.  Allows you to backup the entire device, including your ROM, as well as flash new ROMs and other advanced tasks.</li>
+</ul>
+<p>There are also many apps that claim to make a full nandroid backup.</p>
+<h2>Application/Network Control</h2>
+<ul>
+<li><p><a href=""http://www.appbrain.com/app/com.bigtincan.android.adfree"" rel=""noreferrer"">AdFree</a> - Removes ads by changing the hosts file (so both ads in apps and in browser)</p>
+</li>
+<li><p><a href=""http://forum.xda-developers.com/showthread.php?t=2190753"" rel=""noreferrer"">Adaway</a> - Also blocks in-app adds.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.googlecode.droidwall.free"" rel=""noreferrer"">Droid Wall</a> - Firewall application.  Got an app that's using up all your data when you're not even using it?  Block it with this!</p>
+</li>
+<li><p><a href=""https://www.torproject.org/docs/android.html"" rel=""noreferrer"">Orbot</a> - Tor app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.aac.cachemate.demo"" rel=""noreferrer"">Cache Mate</a> - Clear cache of all apps</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=org.onaips.vnc"" rel=""noreferrer"">Droid VNC Server</a> - Connect to your phone via VNC</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.lbe.security"" rel=""noreferrer"">LBE Security Master</a> - Selectively revoke permissions from app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.smart.swkey"" rel=""noreferrer"">Button Savior</a> - Helps to add on screen button to compensate a failure of a physical button.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=ru.org.amip.ClockSync"" rel=""noreferrer"">ClockSync</a> - to automatically sync the device's time with few predefined atomic clocks.</p>
+</li>
+</ul>
+<h2>Xposed Framework</h2>
+<p>The Xposed framework allows apps with advanced tweaking functionality to be installed.</p>
+<ul>
+<li>GravityBox (for Android <a href=""http://repo.xposed.info/module/com.ceco.gm2.gravitybox"" rel=""noreferrer"">4.2</a> <a href=""http://repo.xposed.info/module/com.ceco.kitkat.gravitybox"" rel=""noreferrer"">4.4</a> <a href=""http://repo.xposed.info/module/com.ceco.lollipop.gravitybox"" rel=""noreferrer"">5.0 5.1</a> <a href=""http://repo.xposed.info/module/com.ceco.marshmallow.gravitybox"" rel=""noreferrer"">6.0</a>) - An app that provides many system tweaks.</li>
+<li><a href=""http://repo.xposed.info/module/com.pyler.xinstaller"" rel=""noreferrer"">XInstaller</a> - Various tweaks for Package Installer.</li>
+<li><a href=""http://repo.xposed.info/module/com.versobit.kmark.xhangouts"" rel=""noreferrer"">XHangouts</a> - Improved version of google hangouts.</li>
+<li><s>XWhatsApp</s> - Mod for the popular whatsapp messenger.</li>
+<li><a href=""http://repo.xposed.info/module/biz.bokhorst.xprivacy"" rel=""noreferrer"">XPrivacy</a> - Finegrained app control.</li>
+</ul>
+<h2>CPU Control</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.mhuang.overclocking"" rel=""noreferrer"">SetCPU</a> - Control the processor speed of the phone, can also setup profiles.  It allows underclocking based on conditions, e.g. underclock to 125mhz when screen is turned off. It dramatically increases battery life without affecting performance (when you're actually using apps / the phone) or can improve performance via overclocking.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=org.freecoder.widgets.overclock"" rel=""noreferrer"">Overclock Widget</a> - Similar to SetCPU but less functional</li>
+</ul>
+<h2>Enable swap file / partition</h2>
+<ul>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.swapit.expander.de"" rel=""noreferrer"">ROEHSOFT RAM-EXPANDER (SWAP)</a> - Use SD card for more RAM.</p>
+</li>
+<li><p><s><a href=""https://play.google.com/store/apps/details?id=com.Memory_Swapper_Free_120510"" rel=""noreferrer"">Memory Swapper Free</a> - support swap file.</s></p>
+</li>
+</ul>
+<h2>Advanced and Miscellaneous</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> - Facilitates installing new ROMs with ClockworkMod Recovery, and allows you to back up your entire device (ROM + apps + data) and other advanced tasks.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.siriusapplications.quickboot"" rel=""noreferrer"">Quick Boot</a> - Allows you to reboot into recovery or the bootloader / Download Mode.</li>
+<li><s><a href=""http://www.appbrain.com/app/net.geekherd.softbuttonshack"" rel=""noreferrer"">LED Hack</a> - Disable LED on phone</s> (no longer available on Android Market)</li>
+<li>Lag fixes - Various tweaks and filesystem changes to speed up your phone or prevent issues with your phone pausing / freezing temporarily.  These are particularly useful on some Samsung phones that use an RFS filesystem.  An Ext4 lagfix like <a href=""http://project-voodoo.org/"" rel=""noreferrer"">Voodoo</a> is recommended, but there are also Ext2 lagfixes like <a href=""http://forum.xda-developers.com/showthread.php?t=784691"" rel=""noreferrer"">RyanZA's One Click Lag Fix</a> which also allows you to change advanced memory, Wi-Fi, and disk scheduling options.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.fifthelement.trimmer"" rel=""noreferrer"">TRIM</a> - Some older kernels do not have TRIM.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=eu.chainfire.stickmount"" rel=""noreferrer"">StickMount</a> - Automatically mount USB flash drives, keyboards, mouse via <a href=""http://en.wikipedia.org/wiki/USB_On-The-Go"" rel=""noreferrer"">USB OTG</a> cable.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=stericson.busybox&amp;hl=en"" rel=""noreferrer"">BusyBox</a> - Makes terminal emulators feel more like linux.</li>
+<li>Sideloading apps.  Most carriers/phones allow this option but AT&amp;T does not.</li>
+</ul>
+<h2>ROMs</h2>
+<p>Though root is not required for flashing new ROMs, many apps that make it easier do require root.</p>
+<p><a href=""http://www.cyanogenmod.com/"" rel=""noreferrer"">CyanogenMod</a> is a very popular rom that many people put on their phones.  It is also easy to install via the <a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> app.  First install the Clockwork recovery.  <strong>Then run a backup before you flash any roms.</strong></p>
+<p>Also check out <a href=""/q/17152"">&quot;Where can I find stock or custom ROMs for my device&quot;</a> or <a href=""http://forum.xda-developers.com/"" rel=""noreferrer"">the XDA forums</a> for other custom roms.  Most devices have a specific &quot;Android Development&quot; sub-forum where ROMs are posted.</p>
+<p><em>Always do a nandroid backup before installing any rom or mod!</em>  You may also need to wipe all data and cache from your phone before installing or upgrading a ROM.</p>
+<strong>Custom Kernels</strong><br><br>
+<p>One popular set of kernels is those provided by <a href=""http://chevyno1.richstevenson.com/froyo/kernels/"" rel=""noreferrer"">ChevyNo1</a>. You can also download them via the premium version of the ROM Manager.  <strong>Make a nandroid (ClockworkMod) backup before using these kernels!</strong> You'll also want to get SetCPU to make the most out of these kernels.</p>
+<p>Start with the low voltage kernels at the lowest speed and work your way up to the 1.2GHz.  If your phone is stable up to the 1.2GHz range, then try some of the ultra low voltage kernels.  If you start getting force closes, then switch back to a low voltage kernel.</p>
+<p>Basically each phone (of the same phone brand/model) varies by which kernel it can handle due to the manufacturing differences between processors. So I may have a Motorola Droid that can run ultra low voltage kernels and yours may not be able to run them.  These phones weren't necessarily designed to run like this.</p>
+",,137823,Lollopop OS doesn't allow certain toggling apps like Power Toggles to toggle data/airplane mode etc..With root its possible to allow those apps work properly,13
+16,13,,"<h1><strong>Things that Require Root</strong></h1>
+<h2>Root File Explorers</h2>
+<p>You can remount your <code>/system/</code> directory read-write, which will allow you to <a href=""http://wiki.cyanogenmod.org/w/Barebones"" rel=""noreferrer"">remove carrier-shipped applications</a> you don't like and so on.  Root file explorers can allow you to view all folders on your phone, such as <code>/data/</code> which is normally protected.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.blogspot.superthomaslab.mountsystemrorw"" rel=""noreferrer"">Mount /system RO/RW</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.speedsoftware.rootexplorer"" rel=""noreferrer"">Root Explorer</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.estrongs.android.pop"" rel=""noreferrer"">ES File Explorer</a></li>
+</ul>
+<h2>Patching Apps</h2>
+<p>With root access you can patch other apps to gain special access to functions, or removal of self-protection for some apps.</p>
+<ul>
+<li><a href=""https://in-appstore.com/android/"" rel=""noreferrer"">Freedom</a> - Get iAP (in-App Purchase) for free! Buy diamonds, rubies and Pro unlocks without real money. Note: Legal restrictions may apply depending on your country/region.</li>
+<li><a href=""https://www.luckypatchers.com/download/"" rel=""noreferrer"">Lucky Patcher</a> - Patch apps so that they don't require Google Play Services / displays no more ads / automatically become Pro version / work at certain DPI... There's many you can do with Lucky Patcher and there's even a bunch of patches provided already.</li>
+</ul>
+<h2>Moving &amp; Removing Apps</h2>
+<p>Access to /system also means you can move apps or updates to system apps from /data to /system (with caution!), if the partition has enough space.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall or freeze system apps, integrate updates into your ROM to save space, move apps to SD, and more.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.lrenault.tools.apps2rom&amp;hl=en"" rel=""noreferrer"">apps2rom</a> - does for free what the pro version of titanium backup does: lets you move apps to the system partition.</li>
+<li><a href=""http://www.bloatfreezer.com/"" rel=""noreferrer"">Bloatfreezer</a> - Freeze or remove system apps</li>
+<li><a href=""http://www.link2sd.info/faq"" rel=""noreferrer"">Link2SD</a> - Move (system) applications to a second partition in SD card, liberating loads of free space in <code>/system</code> partition.</li>
+</ul>
+<p>Note that moving apps to the sdcard has risks and cons, and should be undertaken only if space is needed. Most modern devices have enough memory for many apps (16GB+), providing that photos/videos/music are stored on an external sdcard.</p>
+<h2>Tethering</h2>
+<p>Some devices already have Wi-Fi tethering out-of-the-box, like the Samsung Galaxy S, so this isn't such a big deal on them unless the carrier charges for the feature.</p>
+<ul>
+<li><a href=""http://code.google.com/p/android-wifi-tether/"" rel=""noreferrer"">Android Wi-Fi Tether</a></li>
+<li><s><a href=""http://www.appbrain.com/app/android.tether"" rel=""noreferrer"">Wireless Tether</a></s></li>
+</ul>
+<h2>Screenshots &amp; screen recording</h2>
+<p>root is needed for screenshots before 4.0-Ice Cream Sandwich.
+Most pre-lollipop screen recorders also require root.</p>
+<ul>
+<li><a href=""http://www.appbrain.com/app/com.bw.picme.local"" rel=""noreferrer"">ShootMe</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.gmail.drocap.drocap2"" rel=""noreferrer"">Drocap2</a></li>
+</ul>
+<h2>Backups</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall system apps, integrate updates into your ROM to save space, and so on.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ClockworkMod Recovery (ROM Manager)</a> - Usually requires root to install via ROM Manager.  Allows you to backup the entire device, including your ROM, as well as flash new ROMs and other advanced tasks.</li>
+</ul>
+<p>There are also many apps that claim to make a full nandroid backup.</p>
+<h2>Application/Network Control</h2>
+<ul>
+<li><p><a href=""http://www.appbrain.com/app/com.bigtincan.android.adfree"" rel=""noreferrer"">AdFree</a> - Removes ads by changing the hosts file (so both ads in apps and in browser)</p>
+</li>
+<li><p><a href=""http://forum.xda-developers.com/showthread.php?t=2190753"" rel=""noreferrer"">Adaway</a> - Also blocks in-app adds.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.googlecode.droidwall.free"" rel=""noreferrer"">Droid Wall</a> - Firewall application.  Got an app that's using up all your data when you're not even using it?  Block it with this!</p>
+</li>
+<li><p><a href=""https://www.torproject.org/docs/android.html"" rel=""noreferrer"">Orbot</a> - Tor app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.aac.cachemate.demo"" rel=""noreferrer"">Cache Mate</a> - Clear cache of all apps</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=org.onaips.vnc"" rel=""noreferrer"">Droid VNC Server</a> - Connect to your phone via VNC</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.lbe.security"" rel=""noreferrer"">LBE Security Master</a> - Selectively revoke permissions from app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.smart.swkey"" rel=""noreferrer"">Button Savior</a> - Helps to add on screen button to compensate a failure of a physical button.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=ru.org.amip.ClockSync"" rel=""noreferrer"">ClockSync</a> - to automatically sync the device's time with few predefined atomic clocks.</p>
+</li>
+</ul>
+<h2>Xposed Framework</h2>
+<p>The Xposed framework allows apps with advanced tweaking functionality to be installed.</p>
+<ul>
+<li>GravityBox (for Android <a href=""http://repo.xposed.info/module/com.ceco.gm2.gravitybox"" rel=""noreferrer"">4.2</a> <a href=""http://repo.xposed.info/module/com.ceco.kitkat.gravitybox"" rel=""noreferrer"">4.4</a> <a href=""http://repo.xposed.info/module/com.ceco.lollipop.gravitybox"" rel=""noreferrer"">5.0 5.1</a> <a href=""http://repo.xposed.info/module/com.ceco.marshmallow.gravitybox"" rel=""noreferrer"">6.0</a>) - An app that provides many system tweaks.</li>
+<li><a href=""http://repo.xposed.info/module/com.pyler.xinstaller"" rel=""noreferrer"">XInstaller</a> - Various tweaks for Package Installer.</li>
+<li><a href=""http://repo.xposed.info/module/com.versobit.kmark.xhangouts"" rel=""noreferrer"">XHangouts</a> - Improved version of google hangouts.</li>
+<li><s>XWhatsApp</s> - Mod for the popular whatsapp messenger.</li>
+<li><a href=""http://repo.xposed.info/module/biz.bokhorst.xprivacy"" rel=""noreferrer"">XPrivacy</a> - Finegrained app control.</li>
+</ul>
+<h2>CPU Control</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.mhuang.overclocking"" rel=""noreferrer"">SetCPU</a> - Control the processor speed of the phone, can also setup profiles.  It allows underclocking based on conditions, e.g. underclock to 125mhz when screen is turned off. It dramatically increases battery life without affecting performance (when you're actually using apps / the phone) or can improve performance via overclocking.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=org.freecoder.widgets.overclock"" rel=""noreferrer"">Overclock Widget</a> - Similar to SetCPU but less functional</li>
+</ul>
+<h2>Enable swap file / partition</h2>
+<ul>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.swapit.expander.de"" rel=""noreferrer"">ROEHSOFT RAM-EXPANDER (SWAP)</a> - Use SD card for more RAM.</p>
+</li>
+<li><p><s><a href=""https://play.google.com/store/apps/details?id=com.Memory_Swapper_Free_120510"" rel=""noreferrer"">Memory Swapper Free</a> - support swap file.</s></p>
+</li>
+</ul>
+<h2>Advanced and Miscellaneous</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> - Facilitates installing new ROMs with ClockworkMod Recovery, and allows you to back up your entire device (ROM + apps + data) and other advanced tasks.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.siriusapplications.quickboot"" rel=""noreferrer"">Quick Boot</a> - Allows you to reboot into recovery or the bootloader / Download Mode.</li>
+<li><s><a href=""http://www.appbrain.com/app/net.geekherd.softbuttonshack"" rel=""noreferrer"">LED Hack</a> - Disable LED on phone</s> (no longer available on Android Market)</li>
+<li>Lag fixes - Various tweaks and filesystem changes to speed up your phone or prevent issues with your phone pausing / freezing temporarily.  These are particularly useful on some Samsung phones that use an RFS filesystem.  An Ext4 lagfix like <a href=""http://project-voodoo.org/"" rel=""noreferrer"">Voodoo</a> is recommended, but there are also Ext2 lagfixes like <a href=""http://forum.xda-developers.com/showthread.php?t=784691"" rel=""noreferrer"">RyanZA's One Click Lag Fix</a> which also allows you to change advanced memory, Wi-Fi, and disk scheduling options.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.fifthelement.trimmer"" rel=""noreferrer"">TRIM</a> - Some older kernels do not have TRIM.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=eu.chainfire.stickmount"" rel=""noreferrer"">StickMount</a> - Automatically mount USB flash drives, keyboards, mouse via <a href=""http://en.wikipedia.org/wiki/USB_On-The-Go"" rel=""noreferrer"">USB OTG</a> cable.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=stericson.busybox&amp;hl=en"" rel=""noreferrer"">BusyBox</a> - Makes terminal emulators feel more like linux.</li>
+<li>Sideloading apps.  Most carriers/phones allow this option but AT&amp;T does not.</li>
+</ul>
+<h2>ROMs</h2>
+<p>Though root is not required for flashing new ROMs, many apps that make it easier do require root.</p>
+<p><a href=""http://www.cyanogenmod.com/"" rel=""noreferrer"">CyanogenMod</a> is a very popular rom that many people put on their phones.  It is also easy to install via the <a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> app.  First install the Clockwork recovery.  <strong>Then run a backup before you flash any roms.</strong></p>
+<p>Also check out <a href=""/q/17152"">&quot;Where can I find stock or custom ROMs for my device&quot;</a> or <a href=""http://forum.xda-developers.com/"" rel=""noreferrer"">the XDA forums</a> for other custom roms.  Most devices have a specific &quot;Android Development&quot; sub-forum where ROMs are posted.</p>
+<p><em>Always do a nandroid backup before installing any rom or mod!</em>  You may also need to wipe all data and cache from your phone before installing or upgrading a ROM.</p>
+<strong>Custom Kernels</strong><br><br>
+<p>One popular set of kernels is those provided by <a href=""http://chevyno1.richstevenson.com/froyo/kernels/"" rel=""noreferrer"">ChevyNo1</a>. You can also download them via the premium version of the ROM Manager.  <strong>Make a nandroid (ClockworkMod) backup before using these kernels!</strong> You'll also want to get SetCPU to make the most out of these kernels.</p>
+<p>Start with the low voltage kernels at the lowest speed and work your way up to the 1.2GHz.  If your phone is stable up to the 1.2GHz range, then try some of the ultra low voltage kernels.  If you start getting force closes, then switch back to a low voltage kernel.</p>
+<p>Basically each phone (of the same phone brand/model) varies by which kernel it can handle due to the manufacturing differences between processors. So I may have a Motorola Droid that can run ultra low voltage kernels and yours may not be able to run them.  These phones weren't necessarily designed to run like this.</p>
+",,140988,"With Lollipop out and Android M around the corner, I think this answer could use a revamping. Some of the links are down, and I think the answer itself can gain a lot by coming from a more neutral point of view.",13
+17,13,,"<h1><strong>Things that Require Root</strong></h1>
+<h2>Root File Explorers</h2>
+<p>You can remount your <code>/system/</code> directory read-write, which will allow you to <a href=""http://wiki.cyanogenmod.org/w/Barebones"" rel=""noreferrer"">remove carrier-shipped applications</a> you don't like and so on.  Root file explorers can allow you to view all folders on your phone, such as <code>/data/</code> which is normally protected.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.blogspot.superthomaslab.mountsystemrorw"" rel=""noreferrer"">Mount /system RO/RW</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.speedsoftware.rootexplorer"" rel=""noreferrer"">Root Explorer</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.estrongs.android.pop"" rel=""noreferrer"">ES File Explorer</a></li>
+</ul>
+<h2>Patching Apps</h2>
+<p>With root access you can patch other apps to gain special access to functions, or removal of self-protection for some apps.</p>
+<ul>
+<li><a href=""https://in-appstore.com/android/"" rel=""noreferrer"">Freedom</a> - Get iAP (in-App Purchase) for free! Buy diamonds, rubies and Pro unlocks without real money. Note: Legal restrictions may apply depending on your country/region.</li>
+<li><a href=""https://www.luckypatchers.com/download/"" rel=""noreferrer"">Lucky Patcher</a> - Patch apps so that they don't require Google Play Services / displays no more ads / automatically become Pro version / work at certain DPI... There's many you can do with Lucky Patcher and there's even a bunch of patches provided already.</li>
+</ul>
+<h2>Moving &amp; Removing Apps</h2>
+<p>Access to /system also means you can move apps or updates to system apps from /data to /system (with caution!), if the partition has enough space.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall or freeze system apps, integrate updates into your ROM to save space, move apps to SD, and more.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.lrenault.tools.apps2rom&amp;hl=en"" rel=""noreferrer"">apps2rom</a> - does for free what the pro version of titanium backup does: lets you move apps to the system partition.</li>
+<li><a href=""http://www.bloatfreezer.com/"" rel=""noreferrer"">Bloatfreezer</a> - Freeze or remove system apps</li>
+<li><a href=""http://www.link2sd.info/faq"" rel=""noreferrer"">Link2SD</a> - Move (system) applications to a second partition in SD card, liberating loads of free space in <code>/system</code> partition.</li>
+</ul>
+<p>Note that moving apps to the sdcard has risks and cons, and should be undertaken only if space is needed. Most modern devices have enough memory for many apps (16GB+), providing that photos/videos/music are stored on an external sdcard.</p>
+<h2>Tethering</h2>
+<p>Some devices already have Wi-Fi tethering out-of-the-box, like the Samsung Galaxy S, so this isn't such a big deal on them unless the carrier charges for the feature.</p>
+<ul>
+<li><a href=""http://code.google.com/p/android-wifi-tether/"" rel=""noreferrer"">Android Wi-Fi Tether</a></li>
+<li><s><a href=""http://www.appbrain.com/app/android.tether"" rel=""noreferrer"">Wireless Tether</a></s></li>
+</ul>
+<h2>Screenshots &amp; screen recording</h2>
+<p>root is needed for screenshots before 4.0-Ice Cream Sandwich.
+Most pre-lollipop screen recorders also require root.</p>
+<ul>
+<li><a href=""http://www.appbrain.com/app/com.bw.picme.local"" rel=""noreferrer"">ShootMe</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.gmail.drocap.drocap2"" rel=""noreferrer"">Drocap2</a></li>
+</ul>
+<h2>Backups</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall system apps, integrate updates into your ROM to save space, and so on.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ClockworkMod Recovery (ROM Manager)</a> - Usually requires root to install via ROM Manager.  Allows you to backup the entire device, including your ROM, as well as flash new ROMs and other advanced tasks.</li>
+</ul>
+<p>There are also many apps that claim to make a full nandroid backup.</p>
+<h2>Application/Network Control</h2>
+<ul>
+<li><p><a href=""http://www.appbrain.com/app/com.bigtincan.android.adfree"" rel=""noreferrer"">AdFree</a> - Removes ads by changing the hosts file (so both ads in apps and in browser)</p>
+</li>
+<li><p><a href=""http://forum.xda-developers.com/showthread.php?t=2190753"" rel=""noreferrer"">Adaway</a> - Also blocks in-app adds.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.googlecode.droidwall.free"" rel=""noreferrer"">Droid Wall</a> - Firewall application.  Got an app that's using up all your data when you're not even using it?  Block it with this!</p>
+</li>
+<li><p><a href=""https://www.torproject.org/docs/android.html"" rel=""noreferrer"">Orbot</a> - Tor app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.aac.cachemate.demo"" rel=""noreferrer"">Cache Mate</a> - Clear cache of all apps</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=org.onaips.vnc"" rel=""noreferrer"">Droid VNC Server</a> - Connect to your phone via VNC</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.lbe.security"" rel=""noreferrer"">LBE Security Master</a> - Selectively revoke permissions from app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.smart.swkey"" rel=""noreferrer"">Button Savior</a> - Helps to add on screen button to compensate a failure of a physical button.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=ru.org.amip.ClockSync"" rel=""noreferrer"">ClockSync</a> - to automatically sync the device's time with few predefined atomic clocks.</p>
+</li>
+</ul>
+<h2>Xposed Framework</h2>
+<p>The Xposed framework allows apps with advanced tweaking functionality to be installed.</p>
+<ul>
+<li>GravityBox (for Android <a href=""http://repo.xposed.info/module/com.ceco.gm2.gravitybox"" rel=""noreferrer"">4.2</a> <a href=""http://repo.xposed.info/module/com.ceco.kitkat.gravitybox"" rel=""noreferrer"">4.4</a> <a href=""http://repo.xposed.info/module/com.ceco.lollipop.gravitybox"" rel=""noreferrer"">5.0 5.1</a> <a href=""http://repo.xposed.info/module/com.ceco.marshmallow.gravitybox"" rel=""noreferrer"">6.0</a>) - An app that provides many system tweaks.</li>
+<li><a href=""http://repo.xposed.info/module/com.pyler.xinstaller"" rel=""noreferrer"">XInstaller</a> - Various tweaks for Package Installer.</li>
+<li><a href=""http://repo.xposed.info/module/com.versobit.kmark.xhangouts"" rel=""noreferrer"">XHangouts</a> - Improved version of google hangouts.</li>
+<li><s>XWhatsApp</s> - Mod for the popular whatsapp messenger.</li>
+<li><a href=""http://repo.xposed.info/module/biz.bokhorst.xprivacy"" rel=""noreferrer"">XPrivacy</a> - Finegrained app control.</li>
+</ul>
+<h2>CPU Control</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.mhuang.overclocking"" rel=""noreferrer"">SetCPU</a> - Control the processor speed of the phone, can also setup profiles.  It allows underclocking based on conditions, e.g. underclock to 125mhz when screen is turned off. It dramatically increases battery life without affecting performance (when you're actually using apps / the phone) or can improve performance via overclocking.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=org.freecoder.widgets.overclock"" rel=""noreferrer"">Overclock Widget</a> - Similar to SetCPU but less functional</li>
+</ul>
+<h2>Enable swap file / partition</h2>
+<ul>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.swapit.expander.de"" rel=""noreferrer"">ROEHSOFT RAM-EXPANDER (SWAP)</a> - Use SD card for more RAM.</p>
+</li>
+<li><p><s><a href=""https://play.google.com/store/apps/details?id=com.Memory_Swapper_Free_120510"" rel=""noreferrer"">Memory Swapper Free</a> - support swap file.</s></p>
+</li>
+</ul>
+<h2>Advanced and Miscellaneous</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> - Facilitates installing new ROMs with ClockworkMod Recovery, and allows you to back up your entire device (ROM + apps + data) and other advanced tasks.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.siriusapplications.quickboot"" rel=""noreferrer"">Quick Boot</a> - Allows you to reboot into recovery or the bootloader / Download Mode.</li>
+<li><s><a href=""http://www.appbrain.com/app/net.geekherd.softbuttonshack"" rel=""noreferrer"">LED Hack</a> - Disable LED on phone</s> (no longer available on Android Market)</li>
+<li>Lag fixes - Various tweaks and filesystem changes to speed up your phone or prevent issues with your phone pausing / freezing temporarily.  These are particularly useful on some Samsung phones that use an RFS filesystem.  An Ext4 lagfix like <a href=""http://project-voodoo.org/"" rel=""noreferrer"">Voodoo</a> is recommended, but there are also Ext2 lagfixes like <a href=""http://forum.xda-developers.com/showthread.php?t=784691"" rel=""noreferrer"">RyanZA's One Click Lag Fix</a> which also allows you to change advanced memory, Wi-Fi, and disk scheduling options.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.fifthelement.trimmer"" rel=""noreferrer"">TRIM</a> - Some older kernels do not have TRIM.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=eu.chainfire.stickmount"" rel=""noreferrer"">StickMount</a> - Automatically mount USB flash drives, keyboards, mouse via <a href=""http://en.wikipedia.org/wiki/USB_On-The-Go"" rel=""noreferrer"">USB OTG</a> cable.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=stericson.busybox&amp;hl=en"" rel=""noreferrer"">BusyBox</a> - Makes terminal emulators feel more like linux.</li>
+<li>Sideloading apps.  Most carriers/phones allow this option but AT&amp;T does not.</li>
+</ul>
+<h2>ROMs</h2>
+<p>Though root is not required for flashing new ROMs, many apps that make it easier do require root.</p>
+<p><a href=""http://www.cyanogenmod.com/"" rel=""noreferrer"">CyanogenMod</a> is a very popular rom that many people put on their phones.  It is also easy to install via the <a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> app.  First install the Clockwork recovery.  <strong>Then run a backup before you flash any roms.</strong></p>
+<p>Also check out <a href=""/q/17152"">&quot;Where can I find stock or custom ROMs for my device&quot;</a> or <a href=""http://forum.xda-developers.com/"" rel=""noreferrer"">the XDA forums</a> for other custom roms.  Most devices have a specific &quot;Android Development&quot; sub-forum where ROMs are posted.</p>
+<p><em>Always do a nandroid backup before installing any rom or mod!</em>  You may also need to wipe all data and cache from your phone before installing or upgrading a ROM.</p>
+<strong>Custom Kernels</strong><br><br>
+<p>One popular set of kernels is those provided by <a href=""http://chevyno1.richstevenson.com/froyo/kernels/"" rel=""noreferrer"">ChevyNo1</a>. You can also download them via the premium version of the ROM Manager.  <strong>Make a nandroid (ClockworkMod) backup before using these kernels!</strong> You'll also want to get SetCPU to make the most out of these kernels.</p>
+<p>Start with the low voltage kernels at the lowest speed and work your way up to the 1.2GHz.  If your phone is stable up to the 1.2GHz range, then try some of the ultra low voltage kernels.  If you start getting force closes, then switch back to a low voltage kernel.</p>
+<p>Basically each phone (of the same phone brand/model) varies by which kernel it can handle due to the manufacturing differences between processors. So I may have a Motorola Droid that can run ultra low voltage kernels and yours may not be able to run them.  These phones weren't necessarily designed to run like this.</p>
+",,240216,"FYI, ES File Explorer is not my go to anymore.  FX file explorer is maintain much more often. Same with Droidwall. AFWall is the new Droidwall.  AFWall is maintain often.  My primary reasons for rooting, have always been for Adaway, AFWall, and FX file explorer. EX Kernel is also great too  Apphider also comes in handy and is not just for those dating apps either. Good for hiding apps (Banking apps) from phone so a guest can use my spare Nexus 5x for casting.",13
+18,13,,"<h1><strong>Things that Require Root</strong></h1>
+<h2>Root File Explorers</h2>
+<p>You can remount your <code>/system/</code> directory read-write, which will allow you to <a href=""http://wiki.cyanogenmod.org/w/Barebones"" rel=""noreferrer"">remove carrier-shipped applications</a> you don't like and so on.  Root file explorers can allow you to view all folders on your phone, such as <code>/data/</code> which is normally protected.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.blogspot.superthomaslab.mountsystemrorw"" rel=""noreferrer"">Mount /system RO/RW</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.speedsoftware.rootexplorer"" rel=""noreferrer"">Root Explorer</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.estrongs.android.pop"" rel=""noreferrer"">ES File Explorer</a></li>
+</ul>
+<h2>Patching Apps</h2>
+<p>With root access you can patch other apps to gain special access to functions, or removal of self-protection for some apps.</p>
+<ul>
+<li><a href=""https://in-appstore.com/android/"" rel=""noreferrer"">Freedom</a> - Get iAP (in-App Purchase) for free! Buy diamonds, rubies and Pro unlocks without real money. Note: Legal restrictions may apply depending on your country/region.</li>
+<li><a href=""https://www.luckypatchers.com/download/"" rel=""noreferrer"">Lucky Patcher</a> - Patch apps so that they don't require Google Play Services / displays no more ads / automatically become Pro version / work at certain DPI... There's many you can do with Lucky Patcher and there's even a bunch of patches provided already.</li>
+</ul>
+<h2>Moving &amp; Removing Apps</h2>
+<p>Access to /system also means you can move apps or updates to system apps from /data to /system (with caution!), if the partition has enough space.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall or freeze system apps, integrate updates into your ROM to save space, move apps to SD, and more.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.lrenault.tools.apps2rom&amp;hl=en"" rel=""noreferrer"">apps2rom</a> - does for free what the pro version of titanium backup does: lets you move apps to the system partition.</li>
+<li><a href=""http://www.bloatfreezer.com/"" rel=""noreferrer"">Bloatfreezer</a> - Freeze or remove system apps</li>
+<li><a href=""http://www.link2sd.info/faq"" rel=""noreferrer"">Link2SD</a> - Move (system) applications to a second partition in SD card, liberating loads of free space in <code>/system</code> partition.</li>
+</ul>
+<p>Note that moving apps to the sdcard has risks and cons, and should be undertaken only if space is needed. Most modern devices have enough memory for many apps (16GB+), providing that photos/videos/music are stored on an external sdcard.</p>
+<h2>Tethering</h2>
+<p>Some devices already have Wi-Fi tethering out-of-the-box, like the Samsung Galaxy S, so this isn't such a big deal on them unless the carrier charges for the feature.</p>
+<ul>
+<li><a href=""http://code.google.com/p/android-wifi-tether/"" rel=""noreferrer"">Android Wi-Fi Tether</a></li>
+<li><s><a href=""http://www.appbrain.com/app/android.tether"" rel=""noreferrer"">Wireless Tether</a></s></li>
+</ul>
+<h2>Screenshots &amp; screen recording</h2>
+<p>root is needed for screenshots before 4.0-Ice Cream Sandwich.
+Most pre-lollipop screen recorders also require root.</p>
+<ul>
+<li><a href=""http://www.appbrain.com/app/com.bw.picme.local"" rel=""noreferrer"">ShootMe</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.gmail.drocap.drocap2"" rel=""noreferrer"">Drocap2</a></li>
+</ul>
+<h2>Backups</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall system apps, integrate updates into your ROM to save space, and so on.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ClockworkMod Recovery (ROM Manager)</a> - Usually requires root to install via ROM Manager.  Allows you to backup the entire device, including your ROM, as well as flash new ROMs and other advanced tasks.</li>
+</ul>
+<p>There are also many apps that claim to make a full nandroid backup.</p>
+<h2>Application/Network Control</h2>
+<ul>
+<li><p><a href=""http://www.appbrain.com/app/com.bigtincan.android.adfree"" rel=""noreferrer"">AdFree</a> - Removes ads by changing the hosts file (so both ads in apps and in browser)</p>
+</li>
+<li><p><a href=""http://forum.xda-developers.com/showthread.php?t=2190753"" rel=""noreferrer"">Adaway</a> - Also blocks in-app adds.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.googlecode.droidwall.free"" rel=""noreferrer"">Droid Wall</a> - Firewall application.  Got an app that's using up all your data when you're not even using it?  Block it with this!</p>
+</li>
+<li><p><a href=""https://www.torproject.org/docs/android.html"" rel=""noreferrer"">Orbot</a> - Tor app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.aac.cachemate.demo"" rel=""noreferrer"">Cache Mate</a> - Clear cache of all apps</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=org.onaips.vnc"" rel=""noreferrer"">Droid VNC Server</a> - Connect to your phone via VNC</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.lbe.security"" rel=""noreferrer"">LBE Security Master</a> - Selectively revoke permissions from app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.smart.swkey"" rel=""noreferrer"">Button Savior</a> - Helps to add on screen button to compensate a failure of a physical button.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=ru.org.amip.ClockSync"" rel=""noreferrer"">ClockSync</a> - to automatically sync the device's time with few predefined atomic clocks.</p>
+</li>
+</ul>
+<h2>Xposed Framework</h2>
+<p>The Xposed framework allows apps with advanced tweaking functionality to be installed.</p>
+<ul>
+<li>GravityBox (for Android <a href=""http://repo.xposed.info/module/com.ceco.gm2.gravitybox"" rel=""noreferrer"">4.2</a> <a href=""http://repo.xposed.info/module/com.ceco.kitkat.gravitybox"" rel=""noreferrer"">4.4</a> <a href=""http://repo.xposed.info/module/com.ceco.lollipop.gravitybox"" rel=""noreferrer"">5.0 5.1</a> <a href=""http://repo.xposed.info/module/com.ceco.marshmallow.gravitybox"" rel=""noreferrer"">6.0</a>) - An app that provides many system tweaks.</li>
+<li><a href=""http://repo.xposed.info/module/com.pyler.xinstaller"" rel=""noreferrer"">XInstaller</a> - Various tweaks for Package Installer.</li>
+<li><a href=""http://repo.xposed.info/module/com.versobit.kmark.xhangouts"" rel=""noreferrer"">XHangouts</a> - Improved version of google hangouts.</li>
+<li><s>XWhatsApp</s> - Mod for the popular whatsapp messenger.</li>
+<li><a href=""http://repo.xposed.info/module/biz.bokhorst.xprivacy"" rel=""noreferrer"">XPrivacy</a> - Finegrained app control.</li>
+</ul>
+<h2>CPU Control</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.mhuang.overclocking"" rel=""noreferrer"">SetCPU</a> - Control the processor speed of the phone, can also setup profiles.  It allows underclocking based on conditions, e.g. underclock to 125mhz when screen is turned off. It dramatically increases battery life without affecting performance (when you're actually using apps / the phone) or can improve performance via overclocking.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=org.freecoder.widgets.overclock"" rel=""noreferrer"">Overclock Widget</a> - Similar to SetCPU but less functional</li>
+</ul>
+<h2>Enable swap file / partition</h2>
+<ul>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.swapit.expander.de"" rel=""noreferrer"">ROEHSOFT RAM-EXPANDER (SWAP)</a> - Use SD card for more RAM.</p>
+</li>
+<li><p><s><a href=""https://play.google.com/store/apps/details?id=com.Memory_Swapper_Free_120510"" rel=""noreferrer"">Memory Swapper Free</a> - support swap file.</s></p>
+</li>
+</ul>
+<h2>Advanced and Miscellaneous</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> - Facilitates installing new ROMs with ClockworkMod Recovery, and allows you to back up your entire device (ROM + apps + data) and other advanced tasks.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.siriusapplications.quickboot"" rel=""noreferrer"">Quick Boot</a> - Allows you to reboot into recovery or the bootloader / Download Mode.</li>
+<li><s><a href=""http://www.appbrain.com/app/net.geekherd.softbuttonshack"" rel=""noreferrer"">LED Hack</a> - Disable LED on phone</s> (no longer available on Android Market)</li>
+<li>Lag fixes - Various tweaks and filesystem changes to speed up your phone or prevent issues with your phone pausing / freezing temporarily.  These are particularly useful on some Samsung phones that use an RFS filesystem.  An Ext4 lagfix like <a href=""http://project-voodoo.org/"" rel=""noreferrer"">Voodoo</a> is recommended, but there are also Ext2 lagfixes like <a href=""http://forum.xda-developers.com/showthread.php?t=784691"" rel=""noreferrer"">RyanZA's One Click Lag Fix</a> which also allows you to change advanced memory, Wi-Fi, and disk scheduling options.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.fifthelement.trimmer"" rel=""noreferrer"">TRIM</a> - Some older kernels do not have TRIM.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=eu.chainfire.stickmount"" rel=""noreferrer"">StickMount</a> - Automatically mount USB flash drives, keyboards, mouse via <a href=""http://en.wikipedia.org/wiki/USB_On-The-Go"" rel=""noreferrer"">USB OTG</a> cable.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=stericson.busybox&amp;hl=en"" rel=""noreferrer"">BusyBox</a> - Makes terminal emulators feel more like linux.</li>
+<li>Sideloading apps.  Most carriers/phones allow this option but AT&amp;T does not.</li>
+</ul>
+<h2>ROMs</h2>
+<p>Though root is not required for flashing new ROMs, many apps that make it easier do require root.</p>
+<p><a href=""http://www.cyanogenmod.com/"" rel=""noreferrer"">CyanogenMod</a> is a very popular rom that many people put on their phones.  It is also easy to install via the <a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> app.  First install the Clockwork recovery.  <strong>Then run a backup before you flash any roms.</strong></p>
+<p>Also check out <a href=""/q/17152"">&quot;Where can I find stock or custom ROMs for my device&quot;</a> or <a href=""http://forum.xda-developers.com/"" rel=""noreferrer"">the XDA forums</a> for other custom roms.  Most devices have a specific &quot;Android Development&quot; sub-forum where ROMs are posted.</p>
+<p><em>Always do a nandroid backup before installing any rom or mod!</em>  You may also need to wipe all data and cache from your phone before installing or upgrading a ROM.</p>
+<strong>Custom Kernels</strong><br><br>
+<p>One popular set of kernels is those provided by <a href=""http://chevyno1.richstevenson.com/froyo/kernels/"" rel=""noreferrer"">ChevyNo1</a>. You can also download them via the premium version of the ROM Manager.  <strong>Make a nandroid (ClockworkMod) backup before using these kernels!</strong> You'll also want to get SetCPU to make the most out of these kernels.</p>
+<p>Start with the low voltage kernels at the lowest speed and work your way up to the 1.2GHz.  If your phone is stable up to the 1.2GHz range, then try some of the ultra low voltage kernels.  If you start getting force closes, then switch back to a low voltage kernel.</p>
+<p>Basically each phone (of the same phone brand/model) varies by which kernel it can handle due to the manufacturing differences between processors. So I may have a Motorola Droid that can run ultra low voltage kernels and yours may not be able to run them.  These phones weren't necessarily designed to run like this.</p>
+",,240217,I'd really love if we updated this answer to reflect more secure and maintained apps.  Droidwall has not been updated in years. AFWall is the droidwall but better and has recent updates.   Side note:VLC player on Playstore is outdated. You have to either get it from an apk mirror or xda full version.,13
+19,13,,"<h1><strong>Things that Require Root</strong></h1>
+<h2>Root File Explorers</h2>
+<p>You can remount your <code>/system/</code> directory read-write, which will allow you to <a href=""http://wiki.cyanogenmod.org/w/Barebones"" rel=""noreferrer"">remove carrier-shipped applications</a> you don't like and so on.  Root file explorers can allow you to view all folders on your phone, such as <code>/data/</code> which is normally protected.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.blogspot.superthomaslab.mountsystemrorw"" rel=""noreferrer"">Mount /system RO/RW</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.speedsoftware.rootexplorer"" rel=""noreferrer"">Root Explorer</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.estrongs.android.pop"" rel=""noreferrer"">ES File Explorer</a></li>
+</ul>
+<h2>Patching Apps</h2>
+<p>With root access you can patch other apps to gain special access to functions, or removal of self-protection for some apps.</p>
+<ul>
+<li><a href=""https://in-appstore.com/android/"" rel=""noreferrer"">Freedom</a> - Get iAP (in-App Purchase) for free! Buy diamonds, rubies and Pro unlocks without real money. Note: Legal restrictions may apply depending on your country/region.</li>
+<li><a href=""https://www.luckypatchers.com/download/"" rel=""noreferrer"">Lucky Patcher</a> - Patch apps so that they don't require Google Play Services / displays no more ads / automatically become Pro version / work at certain DPI... There's many you can do with Lucky Patcher and there's even a bunch of patches provided already.</li>
+</ul>
+<h2>Moving &amp; Removing Apps</h2>
+<p>Access to /system also means you can move apps or updates to system apps from /data to /system (with caution!), if the partition has enough space.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall or freeze system apps, integrate updates into your ROM to save space, move apps to SD, and more.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.lrenault.tools.apps2rom&amp;hl=en"" rel=""noreferrer"">apps2rom</a> - does for free what the pro version of titanium backup does: lets you move apps to the system partition.</li>
+<li><a href=""http://www.bloatfreezer.com/"" rel=""noreferrer"">Bloatfreezer</a> - Freeze or remove system apps</li>
+<li><a href=""http://www.link2sd.info/faq"" rel=""noreferrer"">Link2SD</a> - Move (system) applications to a second partition in SD card, liberating loads of free space in <code>/system</code> partition.</li>
+</ul>
+<p>Note that moving apps to the sdcard has risks and cons, and should be undertaken only if space is needed. Most modern devices have enough memory for many apps (16GB+), providing that photos/videos/music are stored on an external sdcard.</p>
+<h2>Tethering</h2>
+<p>Some devices already have Wi-Fi tethering out-of-the-box, like the Samsung Galaxy S, so this isn't such a big deal on them unless the carrier charges for the feature.</p>
+<ul>
+<li><a href=""http://code.google.com/p/android-wifi-tether/"" rel=""noreferrer"">Android Wi-Fi Tether</a></li>
+<li><s><a href=""http://www.appbrain.com/app/android.tether"" rel=""noreferrer"">Wireless Tether</a></s></li>
+</ul>
+<h2>Screenshots &amp; screen recording</h2>
+<p>root is needed for screenshots before 4.0-Ice Cream Sandwich.
+Most pre-lollipop screen recorders also require root.</p>
+<ul>
+<li><a href=""http://www.appbrain.com/app/com.bw.picme.local"" rel=""noreferrer"">ShootMe</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.gmail.drocap.drocap2"" rel=""noreferrer"">Drocap2</a></li>
+</ul>
+<h2>Backups</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall system apps, integrate updates into your ROM to save space, and so on.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ClockworkMod Recovery (ROM Manager)</a> - Usually requires root to install via ROM Manager.  Allows you to backup the entire device, including your ROM, as well as flash new ROMs and other advanced tasks.</li>
+</ul>
+<p>There are also many apps that claim to make a full nandroid backup.</p>
+<h2>Application/Network Control</h2>
+<ul>
+<li><p><a href=""http://www.appbrain.com/app/com.bigtincan.android.adfree"" rel=""noreferrer"">AdFree</a> - Removes ads by changing the hosts file (so both ads in apps and in browser)</p>
+</li>
+<li><p><a href=""http://forum.xda-developers.com/showthread.php?t=2190753"" rel=""noreferrer"">Adaway</a> - Also blocks in-app adds.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.googlecode.droidwall.free"" rel=""noreferrer"">Droid Wall</a> - Firewall application.  Got an app that's using up all your data when you're not even using it?  Block it with this!</p>
+</li>
+<li><p><a href=""https://www.torproject.org/docs/android.html"" rel=""noreferrer"">Orbot</a> - Tor app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.aac.cachemate.demo"" rel=""noreferrer"">Cache Mate</a> - Clear cache of all apps</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=org.onaips.vnc"" rel=""noreferrer"">Droid VNC Server</a> - Connect to your phone via VNC</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.lbe.security"" rel=""noreferrer"">LBE Security Master</a> - Selectively revoke permissions from app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.smart.swkey"" rel=""noreferrer"">Button Savior</a> - Helps to add on screen button to compensate a failure of a physical button.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=ru.org.amip.ClockSync"" rel=""noreferrer"">ClockSync</a> - to automatically sync the device's time with few predefined atomic clocks.</p>
+</li>
+</ul>
+<h2>Xposed Framework</h2>
+<p>The Xposed framework allows apps with advanced tweaking functionality to be installed.</p>
+<ul>
+<li>GravityBox (for Android <a href=""http://repo.xposed.info/module/com.ceco.gm2.gravitybox"" rel=""noreferrer"">4.2</a> <a href=""http://repo.xposed.info/module/com.ceco.kitkat.gravitybox"" rel=""noreferrer"">4.4</a> <a href=""http://repo.xposed.info/module/com.ceco.lollipop.gravitybox"" rel=""noreferrer"">5.0 5.1</a> <a href=""http://repo.xposed.info/module/com.ceco.marshmallow.gravitybox"" rel=""noreferrer"">6.0</a>) - An app that provides many system tweaks.</li>
+<li><a href=""http://repo.xposed.info/module/com.pyler.xinstaller"" rel=""noreferrer"">XInstaller</a> - Various tweaks for Package Installer.</li>
+<li><a href=""http://repo.xposed.info/module/com.versobit.kmark.xhangouts"" rel=""noreferrer"">XHangouts</a> - Improved version of google hangouts.</li>
+<li><s>XWhatsApp</s> - Mod for the popular whatsapp messenger.</li>
+<li><a href=""http://repo.xposed.info/module/biz.bokhorst.xprivacy"" rel=""noreferrer"">XPrivacy</a> - Finegrained app control.</li>
+</ul>
+<h2>CPU Control</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.mhuang.overclocking"" rel=""noreferrer"">SetCPU</a> - Control the processor speed of the phone, can also setup profiles.  It allows underclocking based on conditions, e.g. underclock to 125mhz when screen is turned off. It dramatically increases battery life without affecting performance (when you're actually using apps / the phone) or can improve performance via overclocking.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=org.freecoder.widgets.overclock"" rel=""noreferrer"">Overclock Widget</a> - Similar to SetCPU but less functional</li>
+</ul>
+<h2>Enable swap file / partition</h2>
+<ul>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.swapit.expander.de"" rel=""noreferrer"">ROEHSOFT RAM-EXPANDER (SWAP)</a> - Use SD card for more RAM.</p>
+</li>
+<li><p><s><a href=""https://play.google.com/store/apps/details?id=com.Memory_Swapper_Free_120510"" rel=""noreferrer"">Memory Swapper Free</a> - support swap file.</s></p>
+</li>
+</ul>
+<h2>Advanced and Miscellaneous</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> - Facilitates installing new ROMs with ClockworkMod Recovery, and allows you to back up your entire device (ROM + apps + data) and other advanced tasks.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.siriusapplications.quickboot"" rel=""noreferrer"">Quick Boot</a> - Allows you to reboot into recovery or the bootloader / Download Mode.</li>
+<li><s><a href=""http://www.appbrain.com/app/net.geekherd.softbuttonshack"" rel=""noreferrer"">LED Hack</a> - Disable LED on phone</s> (no longer available on Android Market)</li>
+<li>Lag fixes - Various tweaks and filesystem changes to speed up your phone or prevent issues with your phone pausing / freezing temporarily.  These are particularly useful on some Samsung phones that use an RFS filesystem.  An Ext4 lagfix like <a href=""http://project-voodoo.org/"" rel=""noreferrer"">Voodoo</a> is recommended, but there are also Ext2 lagfixes like <a href=""http://forum.xda-developers.com/showthread.php?t=784691"" rel=""noreferrer"">RyanZA's One Click Lag Fix</a> which also allows you to change advanced memory, Wi-Fi, and disk scheduling options.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.fifthelement.trimmer"" rel=""noreferrer"">TRIM</a> - Some older kernels do not have TRIM.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=eu.chainfire.stickmount"" rel=""noreferrer"">StickMount</a> - Automatically mount USB flash drives, keyboards, mouse via <a href=""http://en.wikipedia.org/wiki/USB_On-The-Go"" rel=""noreferrer"">USB OTG</a> cable.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=stericson.busybox&amp;hl=en"" rel=""noreferrer"">BusyBox</a> - Makes terminal emulators feel more like linux.</li>
+<li>Sideloading apps.  Most carriers/phones allow this option but AT&amp;T does not.</li>
+</ul>
+<h2>ROMs</h2>
+<p>Though root is not required for flashing new ROMs, many apps that make it easier do require root.</p>
+<p><a href=""http://www.cyanogenmod.com/"" rel=""noreferrer"">CyanogenMod</a> is a very popular rom that many people put on their phones.  It is also easy to install via the <a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> app.  First install the Clockwork recovery.  <strong>Then run a backup before you flash any roms.</strong></p>
+<p>Also check out <a href=""/q/17152"">&quot;Where can I find stock or custom ROMs for my device&quot;</a> or <a href=""http://forum.xda-developers.com/"" rel=""noreferrer"">the XDA forums</a> for other custom roms.  Most devices have a specific &quot;Android Development&quot; sub-forum where ROMs are posted.</p>
+<p><em>Always do a nandroid backup before installing any rom or mod!</em>  You may also need to wipe all data and cache from your phone before installing or upgrading a ROM.</p>
+<strong>Custom Kernels</strong><br><br>
+<p>One popular set of kernels is those provided by <a href=""http://chevyno1.richstevenson.com/froyo/kernels/"" rel=""noreferrer"">ChevyNo1</a>. You can also download them via the premium version of the ROM Manager.  <strong>Make a nandroid (ClockworkMod) backup before using these kernels!</strong> You'll also want to get SetCPU to make the most out of these kernels.</p>
+<p>Start with the low voltage kernels at the lowest speed and work your way up to the 1.2GHz.  If your phone is stable up to the 1.2GHz range, then try some of the ultra low voltage kernels.  If you start getting force closes, then switch back to a low voltage kernel.</p>
+<p>Basically each phone (of the same phone brand/model) varies by which kernel it can handle due to the manufacturing differences between processors. So I may have a Motorola Droid that can run ultra low voltage kernels and yours may not be able to run them.  These phones weren't necessarily designed to run like this.</p>
+",,253404,If you're going to link Lucky Patcher you should correct your link. You can see ChelpuS tried to take down links to the fake site:  https://www.lumendatabase.org/faceted_search?sender_name=ChelpuS,13
+20,13,,"<h1><strong>Things that Require Root</strong></h1>
+<h2>Root File Explorers</h2>
+<p>You can remount your <code>/system/</code> directory read-write, which will allow you to <a href=""http://wiki.cyanogenmod.org/w/Barebones"" rel=""noreferrer"">remove carrier-shipped applications</a> you don't like and so on.  Root file explorers can allow you to view all folders on your phone, such as <code>/data/</code> which is normally protected.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.blogspot.superthomaslab.mountsystemrorw"" rel=""noreferrer"">Mount /system RO/RW</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.speedsoftware.rootexplorer"" rel=""noreferrer"">Root Explorer</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.estrongs.android.pop"" rel=""noreferrer"">ES File Explorer</a></li>
+</ul>
+<h2>Patching Apps</h2>
+<p>With root access you can patch other apps to gain special access to functions, or removal of self-protection for some apps.</p>
+<ul>
+<li><a href=""https://in-appstore.com/android/"" rel=""noreferrer"">Freedom</a> - Get iAP (in-App Purchase) for free! Buy diamonds, rubies and Pro unlocks without real money. Note: Legal restrictions may apply depending on your country/region.</li>
+<li><a href=""https://www.luckypatchers.com/download/"" rel=""noreferrer"">Lucky Patcher</a> - Patch apps so that they don't require Google Play Services / displays no more ads / automatically become Pro version / work at certain DPI... There's many you can do with Lucky Patcher and there's even a bunch of patches provided already.</li>
+</ul>
+<h2>Moving &amp; Removing Apps</h2>
+<p>Access to /system also means you can move apps or updates to system apps from /data to /system (with caution!), if the partition has enough space.</p>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall or freeze system apps, integrate updates into your ROM to save space, move apps to SD, and more.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.lrenault.tools.apps2rom&amp;hl=en"" rel=""noreferrer"">apps2rom</a> - does for free what the pro version of titanium backup does: lets you move apps to the system partition.</li>
+<li><a href=""http://www.bloatfreezer.com/"" rel=""noreferrer"">Bloatfreezer</a> - Freeze or remove system apps</li>
+<li><a href=""http://www.link2sd.info/faq"" rel=""noreferrer"">Link2SD</a> - Move (system) applications to a second partition in SD card, liberating loads of free space in <code>/system</code> partition.</li>
+</ul>
+<p>Note that moving apps to the sdcard has risks and cons, and should be undertaken only if space is needed. Most modern devices have enough memory for many apps (16GB+), providing that photos/videos/music are stored on an external sdcard.</p>
+<h2>Tethering</h2>
+<p>Some devices already have Wi-Fi tethering out-of-the-box, like the Samsung Galaxy S, so this isn't such a big deal on them unless the carrier charges for the feature.</p>
+<ul>
+<li><a href=""http://code.google.com/p/android-wifi-tether/"" rel=""noreferrer"">Android Wi-Fi Tether</a></li>
+<li><s><a href=""http://www.appbrain.com/app/android.tether"" rel=""noreferrer"">Wireless Tether</a></s></li>
+</ul>
+<h2>Screenshots &amp; screen recording</h2>
+<p>root is needed for screenshots before 4.0-Ice Cream Sandwich.
+Most pre-lollipop screen recorders also require root.</p>
+<ul>
+<li><a href=""http://www.appbrain.com/app/com.bw.picme.local"" rel=""noreferrer"">ShootMe</a></li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.gmail.drocap.drocap2"" rel=""noreferrer"">Drocap2</a></li>
+</ul>
+<h2>Backups</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.keramidas.TitaniumBackup"" rel=""noreferrer"">Titanium Backup</a> - Back up all of your applications and data.  Also allows you to uninstall system apps, integrate updates into your ROM to save space, and so on.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ClockworkMod Recovery (ROM Manager)</a> - Usually requires root to install via ROM Manager.  Allows you to backup the entire device, including your ROM, as well as flash new ROMs and other advanced tasks.</li>
+</ul>
+<p>There are also many apps that claim to make a full nandroid backup.</p>
+<h2>Application/Network Control</h2>
+<ul>
+<li><p><a href=""http://www.appbrain.com/app/com.bigtincan.android.adfree"" rel=""noreferrer"">AdFree</a> - Removes ads by changing the hosts file (so both ads in apps and in browser)</p>
+</li>
+<li><p><a href=""http://forum.xda-developers.com/showthread.php?t=2190753"" rel=""noreferrer"">Adaway</a> - Also blocks in-app adds.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.googlecode.droidwall.free"" rel=""noreferrer"">Droid Wall</a> - Firewall application.  Got an app that's using up all your data when you're not even using it?  Block it with this!</p>
+</li>
+<li><p><a href=""https://www.torproject.org/docs/android.html"" rel=""noreferrer"">Orbot</a> - Tor app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.aac.cachemate.demo"" rel=""noreferrer"">Cache Mate</a> - Clear cache of all apps</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=org.onaips.vnc"" rel=""noreferrer"">Droid VNC Server</a> - Connect to your phone via VNC</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.lbe.security"" rel=""noreferrer"">LBE Security Master</a> - Selectively revoke permissions from app</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.smart.swkey"" rel=""noreferrer"">Button Savior</a> - Helps to add on screen button to compensate a failure of a physical button.</p>
+</li>
+<li><p><a href=""https://play.google.com/store/apps/details?id=ru.org.amip.ClockSync"" rel=""noreferrer"">ClockSync</a> - to automatically sync the device's time with few predefined atomic clocks.</p>
+</li>
+</ul>
+<h2>Xposed Framework</h2>
+<p>The Xposed framework allows apps with advanced tweaking functionality to be installed.</p>
+<ul>
+<li>GravityBox (for Android <a href=""http://repo.xposed.info/module/com.ceco.gm2.gravitybox"" rel=""noreferrer"">4.2</a> <a href=""http://repo.xposed.info/module/com.ceco.kitkat.gravitybox"" rel=""noreferrer"">4.4</a> <a href=""http://repo.xposed.info/module/com.ceco.lollipop.gravitybox"" rel=""noreferrer"">5.0 5.1</a> <a href=""http://repo.xposed.info/module/com.ceco.marshmallow.gravitybox"" rel=""noreferrer"">6.0</a>) - An app that provides many system tweaks.</li>
+<li><a href=""http://repo.xposed.info/module/com.pyler.xinstaller"" rel=""noreferrer"">XInstaller</a> - Various tweaks for Package Installer.</li>
+<li><a href=""http://repo.xposed.info/module/com.versobit.kmark.xhangouts"" rel=""noreferrer"">XHangouts</a> - Improved version of google hangouts.</li>
+<li><s>XWhatsApp</s> - Mod for the popular whatsapp messenger.</li>
+<li><a href=""http://repo.xposed.info/module/biz.bokhorst.xprivacy"" rel=""noreferrer"">XPrivacy</a> - Finegrained app control.</li>
+</ul>
+<h2>CPU Control</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.mhuang.overclocking"" rel=""noreferrer"">SetCPU</a> - Control the processor speed of the phone, can also setup profiles.  It allows underclocking based on conditions, e.g. underclock to 125mhz when screen is turned off. It dramatically increases battery life without affecting performance (when you're actually using apps / the phone) or can improve performance via overclocking.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=org.freecoder.widgets.overclock"" rel=""noreferrer"">Overclock Widget</a> - Similar to SetCPU but less functional</li>
+</ul>
+<h2>Enable swap file / partition</h2>
+<ul>
+<li><p><a href=""https://play.google.com/store/apps/details?id=com.swapit.expander.de"" rel=""noreferrer"">ROEHSOFT RAM-EXPANDER (SWAP)</a> - Use SD card for more RAM.</p>
+</li>
+<li><p><s><a href=""https://play.google.com/store/apps/details?id=com.Memory_Swapper_Free_120510"" rel=""noreferrer"">Memory Swapper Free</a> - support swap file.</s></p>
+</li>
+</ul>
+<h2>Advanced and Miscellaneous</h2>
+<ul>
+<li><a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> - Facilitates installing new ROMs with ClockworkMod Recovery, and allows you to back up your entire device (ROM + apps + data) and other advanced tasks.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.siriusapplications.quickboot"" rel=""noreferrer"">Quick Boot</a> - Allows you to reboot into recovery or the bootloader / Download Mode.</li>
+<li><s><a href=""http://www.appbrain.com/app/net.geekherd.softbuttonshack"" rel=""noreferrer"">LED Hack</a> - Disable LED on phone</s> (no longer available on Android Market)</li>
+<li>Lag fixes - Various tweaks and filesystem changes to speed up your phone or prevent issues with your phone pausing / freezing temporarily.  These are particularly useful on some Samsung phones that use an RFS filesystem.  An Ext4 lagfix like <a href=""http://project-voodoo.org/"" rel=""noreferrer"">Voodoo</a> is recommended, but there are also Ext2 lagfixes like <a href=""http://forum.xda-developers.com/showthread.php?t=784691"" rel=""noreferrer"">RyanZA's One Click Lag Fix</a> which also allows you to change advanced memory, Wi-Fi, and disk scheduling options.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=com.fifthelement.trimmer"" rel=""noreferrer"">TRIM</a> - Some older kernels do not have TRIM.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=eu.chainfire.stickmount"" rel=""noreferrer"">StickMount</a> - Automatically mount USB flash drives, keyboards, mouse via <a href=""http://en.wikipedia.org/wiki/USB_On-The-Go"" rel=""noreferrer"">USB OTG</a> cable.</li>
+<li><a href=""https://play.google.com/store/apps/details?id=stericson.busybox&amp;hl=en"" rel=""noreferrer"">BusyBox</a> - Makes terminal emulators feel more like linux.</li>
+<li>Sideloading apps.  Most carriers/phones allow this option but AT&amp;T does not.</li>
+</ul>
+<h2>ROMs</h2>
+<p>Though root is not required for flashing new ROMs, many apps that make it easier do require root.</p>
+<p><a href=""http://www.cyanogenmod.com/"" rel=""noreferrer"">CyanogenMod</a> is a very popular rom that many people put on their phones.  It is also easy to install via the <a href=""https://play.google.com/store/apps/details?id=com.koushikdutta.rommanager"" rel=""noreferrer"">ROM Manager</a> app.  First install the Clockwork recovery.  <strong>Then run a backup before you flash any roms.</strong></p>
+<p>Also check out <a href=""/q/17152"">&quot;Where can I find stock or custom ROMs for my device&quot;</a> or <a href=""http://forum.xda-developers.com/"" rel=""noreferrer"">the XDA forums</a> for other custom roms.  Most devices have a specific &quot;Android Development&quot; sub-forum where ROMs are posted.</p>
+<p><em>Always do a nandroid backup before installing any rom or mod!</em>  You may also need to wipe all data and cache from your phone before installing or upgrading a ROM.</p>
+<strong>Custom Kernels</strong><br><br>
+<p>One popular set of kernels is those provided by <a href=""http://chevyno1.richstevenson.com/froyo/kernels/"" rel=""noreferrer"">ChevyNo1</a>. You can also download them via the premium version of the ROM Manager.  <strong>Make a nandroid (ClockworkMod) backup before using these kernels!</strong> You'll also want to get SetCPU to make the most out of these kernels.</p>
+<p>Start with the low voltage kernels at the lowest speed and work your way up to the 1.2GHz.  If your phone is stable up to the 1.2GHz range, then try some of the ultra low voltage kernels.  If you start getting force closes, then switch back to a low voltage kernel.</p>
+<p>Basically each phone (of the same phone brand/model) varies by which kernel it can handle due to the manufacturing differences between processors. So I may have a Motorola Droid that can run ultra low voltage kernels and yours may not be able to run them.  These phones weren't necessarily designed to run like this.</p>
+",,253581,The first link is broken.,13
+21,15,,"<p>From Google Voice settings (on the web, not the phone app), under phones, select your mobile number, and Edit.  Uncheck ""Receive SMS on this phone""</p>
+",,6,"This is a bad idea. It will solve your problem but it will also make it so that if the Google Voice app ever crashes or you are in an area without data coverage, you will not get your text messages. It is much better to leave this unchecked and then uncheck the ""Notifications via text message"" box in the Google Voice app on your phone. This ensures that you don't get double-notifications, but still get text messages if the Google Voice app can't connect.",15
+22,15,,"<p>From Google Voice settings (on the web, not the phone app), under phones, select your mobile number, and Edit.  Uncheck ""Receive SMS on this phone""</p>
+",,22,"Didn't realize that. Voting your answer up, mine down.",15
+23,15,,"<p>From Google Voice settings (on the web, not the phone app), under phones, select your mobile number, and Edit.  Uncheck ""Receive SMS on this phone""</p>
+",,24,"Moto DROID v1 with latest GV.  Notifications via text message is unchecked, phone is set as Receive Text Messages in GV web settings.  This causes double-notification (triple if also getting e-mail notifications of new text messages).",15
+24,15,,"<p>From Google Voice settings (on the web, not the phone app), under phones, select your mobile number, and Edit.  Uncheck ""Receive SMS on this phone""</p>
+",,36,"@JadeMason: In the Google Voice app settings, there's an area where you can select the phone number of the current phone. Is that set correctly?",15
+25,15,,"<p>From Google Voice settings (on the web, not the phone app), under phones, select your mobile number, and Edit.  Uncheck ""Receive SMS on this phone""</p>
+",,40,"@Rohan: Yes, the number under 'This phone's number' appears correctly.",15
+26,15,,"<p>From Google Voice settings (on the web, not the phone app), under phones, select your mobile number, and Edit.  Uncheck ""Receive SMS on this phone""</p>
+",,89,"@Rohan: I think you have the option between the app's notifications or SMS, but it's a trade off.  With the former, as you said, you have to be where you have data and the app must be running.  But with the latter, you are using SMS counting towards your cell plan's limit.  Conceivably, you can use a cell plan with data but no SMS by using GVoice for texts.",15
+27,20,,"<p>Make sure you have updated to the latest version of the Google Voice application in the Market. Then open the app on your phone.</p>
+
+<p>Go to: Settings > Sync and notifications. Uncheck the ""Notifications via text message"" box. Back all the way out, and just for good measure, reboot your phone.</p>
+",,38,"After seeing JadeMason's comment on Paul Roub's answer I'm kind of unsure about this now. I know it works for me, but can't be sure it's the best way to do things.",20
+28,21,,"<p>Sometimes when an app crashes or gets to a state that it's not response it's nice to be able to shut it down manually . . . but as for slowness issues a task manager isn't necessary as the OS itself handles multitasking better now.</p>
+",,4,"I will add that, sometimes apps do need to be closed but you can typically do that within the OS. You do not need a Task Manager to close apps, you can go to Settings > Applications > Running Services (may be different depending on OS version). From the menu you can press Force Quit.",21
+29,21,,"<p>Sometimes when an app crashes or gets to a state that it's not response it's nice to be able to shut it down manually . . . but as for slowness issues a task manager isn't necessary as the OS itself handles multitasking better now.</p>
+",,5,"no need for a task killer to do that Sheldon, just go into the normal settings :D",21
+30,21,,"<p>Sometimes when an app crashes or gets to a state that it's not response it's nice to be able to shut it down manually . . . but as for slowness issues a task manager isn't necessary as the OS itself handles multitasking better now.</p>
+",,73,"I found Advanced Task Killer (even with Ads) to be a nicer UI. However you don't need it. Stock android has all the necessary tools. Kinda same reason I use Uninstaller vs from the application menu, just easier.",21
+31,21,,"<p>Sometimes when an app crashes or gets to a state that it's not response it's nice to be able to shut it down manually . . . but as for slowness issues a task manager isn't necessary as the OS itself handles multitasking better now.</p>
+",,1021,"@schwiz Sure, you can go to ""Applications"" and do a force stop and in fact that's all latest version of ""Advanced Task Manager"" does but it's nice to see the list of apps currently running instead of all apps. But for the most part the answer is you don't need a task manager.",21
+32,22,,"<p>See this </p>
+
+<p><s><a href=""http://geekfor.me/faq/you-shouldnt-be-using-a-task-killer-with-android/"">http://geekfor.me/faq/you-shouldnt-be-using-a-task-killer-with-android/</a></s></p>
+
+<p><a href=""http://forum.xda-developers.com/showthread.php?t=678205"">FAQ: Why You Shouldn’t Be Using a Task Killer with Android (geekfor.me) - xda-developers</a></p>
+
+<blockquote>
+  <p>tl;dr version:</p>
+  
+  <ul>
+  <li>Android is hard coded to automatically kill a task when more memory is needed.</li>
+  <li>Android is hard coded to automatically kill a task when it’s done doing what it needs to do.</li>
+  <li>Android is hard coded to automatically kill a task when you haven’t returned to it in a long time.</li>
+  <li>Most services (while possibly running in the background) use very little memory when not actively doing something.</li>
+  <li>A content provider is only doing something when there is a notification for it to give. Otherwise it uses very little memory.</li>
+  <li>Killing a process when it isn’t ready only causes it to have to reload itself and start from scratch when it’s needed again.</li>
+  <li>Because a task is likely running in the background for a reason, killing it will only cause it to re-spawn as soon as the activity that was using it looks for it again. And it will just have to start over again.</li>
+  <li>Killing certain processes can have undesirable side effects. Not receiving text messages, alarms not going off, and force closes just to name a few.</li>
+  <li>The only true way to prevent something from running at all on your phone would be to uninstall the .apk.</li>
+  <li>Most applications will exit themselves if you get out of it by hitting “back” until it closes rather than hitting the “home” button. But even with hitting home, Android will eventually kill it once it’s been in the background for a while.</li>
+  </ul>
+</blockquote>
+
+<p>As Android was designed you don't need to kill apps.</p>
+",,901,This does depends on the apps you're running. As soon as you launch an always on cpu or disk traffic heavy app you might notice some slowdowns wich do go away after using a task killer.,22
+33,22,,"<p>See this </p>
+
+<p><s><a href=""http://geekfor.me/faq/you-shouldnt-be-using-a-task-killer-with-android/"">http://geekfor.me/faq/you-shouldnt-be-using-a-task-killer-with-android/</a></s></p>
+
+<p><a href=""http://forum.xda-developers.com/showthread.php?t=678205"">FAQ: Why You Shouldn’t Be Using a Task Killer with Android (geekfor.me) - xda-developers</a></p>
+
+<blockquote>
+  <p>tl;dr version:</p>
+  
+  <ul>
+  <li>Android is hard coded to automatically kill a task when more memory is needed.</li>
+  <li>Android is hard coded to automatically kill a task when it’s done doing what it needs to do.</li>
+  <li>Android is hard coded to automatically kill a task when you haven’t returned to it in a long time.</li>
+  <li>Most services (while possibly running in the background) use very little memory when not actively doing something.</li>
+  <li>A content provider is only doing something when there is a notification for it to give. Otherwise it uses very little memory.</li>
+  <li>Killing a process when it isn’t ready only causes it to have to reload itself and start from scratch when it’s needed again.</li>
+  <li>Because a task is likely running in the background for a reason, killing it will only cause it to re-spawn as soon as the activity that was using it looks for it again. And it will just have to start over again.</li>
+  <li>Killing certain processes can have undesirable side effects. Not receiving text messages, alarms not going off, and force closes just to name a few.</li>
+  <li>The only true way to prevent something from running at all on your phone would be to uninstall the .apk.</li>
+  <li>Most applications will exit themselves if you get out of it by hitting “back” until it closes rather than hitting the “home” button. But even with hitting home, Android will eventually kill it once it’s been in the background for a while.</li>
+  </ul>
+</blockquote>
+
+<p>As Android was designed you don't need to kill apps.</p>
+",,7738,"It's only natural that some people find it hard to accept that this is something the system can really take care of for you. That is because no known systems currently work like this, mostly because of a historical legacy. But it really works like that. No need for a task manager! Let go of your fears... In fact all task managers are, to some degree, hacks, that create other side-effects.",22
+34,26,,"<p>After you install an app that takes over the Dock intent it will ask which one you wish to use as default. </p>
+
+<p>The one I use is called Gentle Alarm which has a nice Dock display and some additional alarm features.  It is however a paid app.  I know there are several free apps out there as well.</p>
+",,18,Is there a good keyword to search with to find apps in the Market?,26
+35,26,,"<p>After you install an app that takes over the Dock intent it will ask which one you wish to use as default. </p>
+
+<p>The one I use is called Gentle Alarm which has a nice Dock display and some additional alarm features.  It is however a paid app.  I know there are several free apps out there as well.</p>
+",,37,Probably the most obvious would be Clock or Dock and possibly replacement to narrow it down.  Appbrain is excellent for finding apps simply because you can search on their website.,26
+36,35,How do you remove pre-installed apps on a rooted phone?,"<p>I have a rooted Nexus One and want to remove some of the pre-installed applications, like Amazon MP3, for example. </p>
+
+<p>What is the best way to do this?</p>
+",79,8,"Yeah, it annoyed me that there was no way to remove the amazon mp3 app",35
+37,35,How do you remove pre-installed apps on a rooted phone?,"<p>I have a rooted Nexus One and want to remove some of the pre-installed applications, like Amazon MP3, for example. </p>
+
+<p>What is the best way to do this?</p>
+",79,19,possible duplicate of [How to remove pre-installed apps like Peep and Friend Stream from my HTC phone?](http://android.stackexchange.com/questions/50/how-to-remove-pre-installed-apps-like-peep-and-friend-stream-from-my-htc-phone),35
+38,37,How do I change the name of my Android device?,"<p>My Android device is the Nexus One.  But this should apply to all current Android devices.</p>
+
+<p><strong>How do I change the name of my Android device?</strong></p>
+
+<p>When I connect to my wireless router's client tables, my android devices is listed for example as: android_1234567890abedfc.  I'd like to give it a more readable name.</p>
+",,19197,It's also possible to configure the hostname via the DHCP server. But I haven't checked if android uses this configuration option. It's anyways just a cosmetic option.,37
+39,37,How do I change the name of my Android device?,"<p>My Android device is the Nexus One.  But this should apply to all current Android devices.</p>
+
+<p><strong>How do I change the name of my Android device?</strong></p>
+
+<p>When I connect to my wireless router's client tables, my android devices is listed for example as: android_1234567890abedfc.  I'd like to give it a more readable name.</p>
+",,45633,http://blog.burrowsapps.com/2011/09/android-change-hostname.html.,37
+40,37,How do I change the name of my Android device?,"<p>My Android device is the Nexus One.  But this should apply to all current Android devices.</p>
+
+<p><strong>How do I change the name of my Android device?</strong></p>
+
+<p>When I connect to my wireless router's client tables, my android devices is listed for example as: android_1234567890abedfc.  I'd like to give it a more readable name.</p>
+",,81851,@Flow (Varies but) Android DHCPCD does not have the dhcpcd-run-hooks for setting the hostname from DHCP. Atleast on my Samsung Froyo device. It doesn't have the ntp hooks either. DHCPCD does support it though.,37
+41,37,How do I change the name of my Android device?,"<p>My Android device is the Nexus One.  But this should apply to all current Android devices.</p>
+
+<p><strong>How do I change the name of my Android device?</strong></p>
+
+<p>When I connect to my wireless router's client tables, my android devices is listed for example as: android_1234567890abedfc.  I'd like to give it a more readable name.</p>
+",,162640,"for GNU Linux: http://askubuntu.com/questions/9540/how-do-i-change-the-computer-name , low level kernel methods will work",37
+42,43,How do I share my wifi with my ipod or netbook,"<p>If my home network is down or if I am traveling, how do I use my phone to access the internet. Basically how would I tether it to my other devices.</p>
+",86,26,Could you indicate which handset you are using? Some have had that feature crippled,43
+43,46,,"<p>You will need to push the .apk to the phone to the System partition to the folder <code>/system/app</code> or <code>/system/priv-app</code> when using Android 4.3 using <code>adb</code>. You can find more info about <code>adb</code> here: <a href=""http://android-dls.com/wiki/index.php?title=ADB"">http://android-dls.com/wiki/index.php?title=ADB</a>.</p>
+
+<p>In order to write to <code>/system</code> you likely have to remount it read-write:</p>
+
+<pre><code>adb shell
+su
+mount -o rw,remount /system
+</code></pre>
+
+<p>Or, do it entirely from the host's ADB:</p>
+
+<pre><code>adb root
+adb remount
+</code></pre>
+
+<p>Now you can place the <code>.apk</code>:</p>
+
+<pre><code>adb push my-app.apk /sdcard/
+adb shell
+su
+cd /sdcard
+mv my-app.apk /system/app
+# or when using Android 4.3 or higher
+mv my-app.apk /system/priv-app
+</code></pre>
+
+<p>Afterwards if the flags are not already set change the permissions. All System-Apps need to have the permissions <code>rw-r--r--</code>. You can also change them via ADB with the command <code>chmod 644 /path_to/your_file</code>. <a href=""http://www.addictivetips.com/mobile/how-to-install-any-app-as-system-app-on-android/"">Though it's quite old, this may help</a></p>
+
+<p>After you have placed the <code>.apk</code> you need to reboot your device. For example with <code>adb reboot</code>.</p>
+",,57,"Yea I figured this would be the way to go, tried it, says bad signature. I used the Mms.apk that is part of the .zip rom I used to install the current android running.",46
+44,46,,"<p>You will need to push the .apk to the phone to the System partition to the folder <code>/system/app</code> or <code>/system/priv-app</code> when using Android 4.3 using <code>adb</code>. You can find more info about <code>adb</code> here: <a href=""http://android-dls.com/wiki/index.php?title=ADB"">http://android-dls.com/wiki/index.php?title=ADB</a>.</p>
+
+<p>In order to write to <code>/system</code> you likely have to remount it read-write:</p>
+
+<pre><code>adb shell
+su
+mount -o rw,remount /system
+</code></pre>
+
+<p>Or, do it entirely from the host's ADB:</p>
+
+<pre><code>adb root
+adb remount
+</code></pre>
+
+<p>Now you can place the <code>.apk</code>:</p>
+
+<pre><code>adb push my-app.apk /sdcard/
+adb shell
+su
+cd /sdcard
+mv my-app.apk /system/app
+# or when using Android 4.3 or higher
+mv my-app.apk /system/priv-app
+</code></pre>
+
+<p>Afterwards if the flags are not already set change the permissions. All System-Apps need to have the permissions <code>rw-r--r--</code>. You can also change them via ADB with the command <code>chmod 644 /path_to/your_file</code>. <a href=""http://www.addictivetips.com/mobile/how-to-install-any-app-as-system-app-on-android/"">Though it's quite old, this may help</a></p>
+
+<p>After you have placed the <code>.apk</code> you need to reboot your device. For example with <code>adb reboot</code>.</p>
+",,124634,"Beautiful answer. Thanks. One comment, I was not able to ""mv my-app.apk /system/app"". I got an error ""failed on 'XXX.apk' - Cross-device link"". I was able to CP and RM the apk as described in http://android.stackexchange.com/questions/75920/failed-on-cp-file-to-system-cross-device-link",46
+45,46,,"<p>You will need to push the .apk to the phone to the System partition to the folder <code>/system/app</code> or <code>/system/priv-app</code> when using Android 4.3 using <code>adb</code>. You can find more info about <code>adb</code> here: <a href=""http://android-dls.com/wiki/index.php?title=ADB"">http://android-dls.com/wiki/index.php?title=ADB</a>.</p>
+
+<p>In order to write to <code>/system</code> you likely have to remount it read-write:</p>
+
+<pre><code>adb shell
+su
+mount -o rw,remount /system
+</code></pre>
+
+<p>Or, do it entirely from the host's ADB:</p>
+
+<pre><code>adb root
+adb remount
+</code></pre>
+
+<p>Now you can place the <code>.apk</code>:</p>
+
+<pre><code>adb push my-app.apk /sdcard/
+adb shell
+su
+cd /sdcard
+mv my-app.apk /system/app
+# or when using Android 4.3 or higher
+mv my-app.apk /system/priv-app
+</code></pre>
+
+<p>Afterwards if the flags are not already set change the permissions. All System-Apps need to have the permissions <code>rw-r--r--</code>. You can also change them via ADB with the command <code>chmod 644 /path_to/your_file</code>. <a href=""http://www.addictivetips.com/mobile/how-to-install-any-app-as-system-app-on-android/"">Though it's quite old, this may help</a></p>
+
+<p>After you have placed the <code>.apk</code> you need to reboot your device. For example with <code>adb reboot</code>.</p>
+",,132642,Consider using `cp` instead of `mv` because you are moving between different file systems and it's not supported in all `mv` versions,46
+46,46,,"<p>You will need to push the .apk to the phone to the System partition to the folder <code>/system/app</code> or <code>/system/priv-app</code> when using Android 4.3 using <code>adb</code>. You can find more info about <code>adb</code> here: <a href=""http://android-dls.com/wiki/index.php?title=ADB"">http://android-dls.com/wiki/index.php?title=ADB</a>.</p>
+
+<p>In order to write to <code>/system</code> you likely have to remount it read-write:</p>
+
+<pre><code>adb shell
+su
+mount -o rw,remount /system
+</code></pre>
+
+<p>Or, do it entirely from the host's ADB:</p>
+
+<pre><code>adb root
+adb remount
+</code></pre>
+
+<p>Now you can place the <code>.apk</code>:</p>
+
+<pre><code>adb push my-app.apk /sdcard/
+adb shell
+su
+cd /sdcard
+mv my-app.apk /system/app
+# or when using Android 4.3 or higher
+mv my-app.apk /system/priv-app
+</code></pre>
+
+<p>Afterwards if the flags are not already set change the permissions. All System-Apps need to have the permissions <code>rw-r--r--</code>. You can also change them via ADB with the command <code>chmod 644 /path_to/your_file</code>. <a href=""http://www.addictivetips.com/mobile/how-to-install-any-app-as-system-app-on-android/"">Though it's quite old, this may help</a></p>
+
+<p>After you have placed the <code>.apk</code> you need to reboot your device. For example with <code>adb reboot</code>.</p>
+",,135062,"this doesn't update the android permissions with the location of the apk, which is required for packages that use the apk",46
+47,47,What Lost Phone finder do you use and why?,"<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href=""https://android.stackexchange.com/questions/2131/best-lost-stolen-device-tracking-app"">Best lost / stolen device tracking app</a>  </p>
+</blockquote>
+
+
+
+<p>I've used MobileDefense, but I want to make sure I'm getting the best protection. What lost phone finders have you used, and why do you like it?</p>
+
+<p>I'm not using a rooted phone, so I'm not looking for features that require root.</p>
+",,246,"Your question should be a little more specific.  What about MobileDefense don't you like or what feature are you looking for?  As it is now, your question isn't much different than ""What's your favorite X app?"", which is really more discussion based rather than Q&A.",47
+48,50,How to remove pre-installed apps like Peep and Friend Stream from my HTC phone?,"<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href=""https://android.stackexchange.com/questions/6851/how-can-i-uninstall-applications-that-are-locked-by-phone-vendor"">How can I uninstall applications that are locked by phone vendor?</a>  </p>
+</blockquote>
+
+
+
+<p>Is there an easy way to remove pre-installed apps on my HTC Droid Incredible?</p>
+
+<ul>
+<li>Amazon MP3</li>
+<li>Car Panel</li>
+<li>City ID</li>
+<li>Footprints</li>
+<li>Friend Stream</li>
+<li>Skype mobile</li>
+<li>Stocks</li>
+<li>Teeter</li>
+<li>VZ Navigator</li>
+</ul>
+
+<p>Are there risks involved in removing them, such as a voided warranty?</p>
+
+<p>Thanks.</p>
+",,1216,I wonder if there's anything handset-specific about this question? I have the same question about a Droid X and it looks like the answers are equally applicable.,50
+49,50,How to remove pre-installed apps like Peep and Friend Stream from my HTC phone?,"<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href=""https://android.stackexchange.com/questions/6851/how-can-i-uninstall-applications-that-are-locked-by-phone-vendor"">How can I uninstall applications that are locked by phone vendor?</a>  </p>
+</blockquote>
+
+
+
+<p>Is there an easy way to remove pre-installed apps on my HTC Droid Incredible?</p>
+
+<ul>
+<li>Amazon MP3</li>
+<li>Car Panel</li>
+<li>City ID</li>
+<li>Footprints</li>
+<li>Friend Stream</li>
+<li>Skype mobile</li>
+<li>Stocks</li>
+<li>Teeter</li>
+<li>VZ Navigator</li>
+</ul>
+
+<p>Are there risks involved in removing them, such as a voided warranty?</p>
+
+<p>Thanks.</p>
+",,1472,"Unless you use a non HTC based ROM, I wouldn't recommend removing Peep and FriendStream. Devs that have always end up putting them back in because of the issues it causes removing them. If you are going to use a CM based ROM you should be fine for sure.",50
+50,50,How to remove pre-installed apps like Peep and Friend Stream from my HTC phone?,"<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href=""https://android.stackexchange.com/questions/6851/how-can-i-uninstall-applications-that-are-locked-by-phone-vendor"">How can I uninstall applications that are locked by phone vendor?</a>  </p>
+</blockquote>
+
+
+
+<p>Is there an easy way to remove pre-installed apps on my HTC Droid Incredible?</p>
+
+<ul>
+<li>Amazon MP3</li>
+<li>Car Panel</li>
+<li>City ID</li>
+<li>Footprints</li>
+<li>Friend Stream</li>
+<li>Skype mobile</li>
+<li>Stocks</li>
+<li>Teeter</li>
+<li>VZ Navigator</li>
+</ul>
+
+<p>Are there risks involved in removing them, such as a voided warranty?</p>
+
+<p>Thanks.</p>
+",,1488,@Webs - Why? HTC Sense does not *require* those apps. I've removed them before.,50
+51,50,How to remove pre-installed apps like Peep and Friend Stream from my HTC phone?,"<blockquote>
+  <p><strong>Possible Duplicate:</strong><br>
+  <a href=""https://android.stackexchange.com/questions/6851/how-can-i-uninstall-applications-that-are-locked-by-phone-vendor"">How can I uninstall applications that are locked by phone vendor?</a>  </p>
+</blockquote>
+
+
+
+<p>Is there an easy way to remove pre-installed apps on my HTC Droid Incredible?</p>
+
+<ul>
+<li>Amazon MP3</li>
+<li>Car Panel</li>
+<li>City ID</li>
+<li>Footprints</li>
+<li>Friend Stream</li>
+<li>Skype mobile</li>
+<li>Stocks</li>
+<li>Teeter</li>
+<li>VZ Navigator</li>
+</ul>
+
+<p>Are there risks involved in removing them, such as a voided warranty?</p>
+
+<p>Thanks.</p>
+",,1491,"I'm not really sure, but any ROM developer for the HTC Evo that has removed them from an HTC Sense based ROM has ended up putting them both back. For some reason they seem to be threaded in HTC Sense. Fresh, Damageless, and Virus have ended up putting them back in their ROMs and one of them stated on their XDA thread they put it back due to issues and FCs.",50
+52,54,,"<p>Download ROM Manager and go to the ""Stock Images"" section of ""Download ROMs"". </p>
+
+<p>You should always do a Nandroid backup when messing with system files. There's always a risk of something going wrong. Also when installing new ROMs (whether custom or stock), it's recommended that you do a clean wipe of the system before installing.</p>
+",,14,Note that usually you only need to wipe when switching Android versions. This differs per ROM though.,54
+53,54,,"<p>Download ROM Manager and go to the ""Stock Images"" section of ""Download ROMs"". </p>
+
+<p>You should always do a Nandroid backup when messing with system files. There's always a risk of something going wrong. Also when installing new ROMs (whether custom or stock), it's recommended that you do a clean wipe of the system before installing.</p>
+",,35,Many times it would be safe to just install over your current installations. But I've personally had issues when installing one 2.2 ROM  (Sapphire) over another (Bugless Beast),54
+54,55,,"<p>A quick, easy way to uninstall an application is to hold down on its icon, and then drag it to the trash can at the bottom of the screen like you would if you were removing a shortcut from your home screen. However, hold the icon over the trash can for a few seconds until ""Drop to uninstall"" appears.</p>
+",,10,"This will remove the app's icon from your Home screen, but not actually uninstall the app.",55
+55,55,,"<p>A quick, easy way to uninstall an application is to hold down on its icon, and then drag it to the trash can at the bottom of the screen like you would if you were removing a shortcut from your home screen. However, hold the icon over the trash can for a few seconds until ""Drop to uninstall"" appears.</p>
+",,11,"If you hold the icon over the bin for a while , you get a ""drop to uninstall"" notification , the behavior may have been changed by the manufacturer.",55
+56,55,,"<p>A quick, easy way to uninstall an application is to hold down on its icon, and then drag it to the trash can at the bottom of the screen like you would if you were removing a shortcut from your home screen. However, hold the icon over the trash can for a few seconds until ""Drop to uninstall"" appears.</p>
+",,15,"@Matt Casto, while you are correct that simply dragging and dropping a home screen icon onto the garbage can will delete the icon from the homescreen, Rohan also stated that if you drag and pause for a few seconds over the trashcan, ""drop to uninstall"" appears, and will uninstall the application. Which is something I didn't know until he pointed it out. Thanks Rohan!",55
+57,61,,"<p>You can uninstall an application from the Market or from the Manage Applications settings screen.</p>
+
+<p>From Marketplace:</p>
+
+<ol>
+<li>Start the Market app.</li>
+<li>Hit the menu button and select Downloads.</li>
+<li>Find the app you want to uninstall and select it.</li>
+<li>Hit the Uninstall button at the bottom.</li>
+</ol>
+
+<p>From Manage Applications:</p>
+
+<ol>
+<li>From your Home screen hit the menu button and select Settings.</li>
+<li>Select ""Applications""</li>
+<li>Select ""Manage Applications""</li>
+<li>Find the app you want to uninstall and select it.</li>
+<li>Hit the Uninstall button at the top.</li>
+</ol>
+
+<p><strong>EDIT:</strong> I wanted to add a 3rd method that <a href=""https://android.stackexchange.com/users/45/rohan-singh"">Rohan Singh</a> had <a href=""https://android.stackexchange.com/questions/39/how-do-i-uninstall-an-application/55#55"">in his answer</a>.</p>
+
+<p>From your Home screen:</p>
+
+<ol>
+<li>Tap and hold on the icon of the application you want to uninstall.</li>
+<li>When the trash can appears near the bottom center of the screen, drag and hold the icon there.</li>
+<li>After the tap &amp; hold / drag &amp; hold some text will appear indicating that you can uninstall by dropping the application's icon on the trash can.</li>
+<li>Release your finger over the trash can and you'll be taken to the same uninstall screen you can get to through Manage Applications in your Settings.</li>
+</ol>
+",,923,"The drag and drop method only works in some Home launcher programs, such LauncherPro.",61
+58,69,How can I change the default search box to use another browser?,"<p>I've installed Dolphin which I love, but the search box on the homepage always defaults to the regular browser.  I'd prefer it just go into Dolphin right away..how can I do this?</p>
+",80,18688,"I had the same issue, it also meant that other apps such as Twitter, Facebook etc would launch the stock Browser app instead of Dolphin.",69
+59,70,What is radio firmware?,"<p>When installing a custom ROM onto a rooted Android device, they often recommend to upgrade the radio firmware.</p>
+
+<p><strong>What exactly is Android's radio firmware?</strong></p>
+",108,16,"While I can't exactly answer the question, I strongly suggest against upgrading your radio, for it's the easiest way to brick your phone completely.",70
+60,70,What is radio firmware?,"<p>When installing a custom ROM onto a rooted Android device, they often recommend to upgrade the radio firmware.</p>
+
+<p><strong>What exactly is Android's radio firmware?</strong></p>
+",108,77186,"Thanks for asking this question. Until reading the answers below, I somehow believed the Radio firmware referred to the firmware for the Radio transmitter/receiver, the Radio we use to listen to songs. :-)",70
+61,71,,"<p>note that when playing with adb you will install apps via their package file name (meaning, at the command prompt you will type >adb install myFile.apk)</p>
+
+<p>but you will uninstall them via their package name (>adb uninstall com.this.that.otherthing)</p>
+
+<p>You won't be able to install a package until you've uninstalled its predecessor. </p>
+
+<p>It'll help to add adb to your PATH so that you can just go to the directory where the .apk file is and type adb install myFile.apk.</p>
+",,58,Thanks! Didn't know about the uninstall mechanics :),71
+62,71,,"<p>note that when playing with adb you will install apps via their package file name (meaning, at the command prompt you will type >adb install myFile.apk)</p>
+
+<p>but you will uninstall them via their package name (>adb uninstall com.this.that.otherthing)</p>
+
+<p>You won't be able to install a package until you've uninstalled its predecessor. </p>
+
+<p>It'll help to add adb to your PATH so that you can just go to the directory where the .apk file is and type adb install myFile.apk.</p>
+",,65414,"Have not tried with system apps, but for usual apps `/system/bin/pm` (Package Manager) utility worked for me. Like `pm install -r myFile.apk` (`-r` for ""replace""). This way you don't need to uninstall and to know package name.",71
+63,74,,"<p>No.  You must root your phone and install a mod such as <a href=""http://wiki.cyanogenmod.com/index.php?title=HTC_Dream"" rel=""nofollow"">CyanogenMod</a> to get your phone running a semi-equivalent of Android 2.1+.  There is no stock rom for Android 2.1+ for the G1.  Additionally, if you do go with CyanogenMod, not all features are fully supported due to hardware limitations, such as LiveWallpapers.</p>
+",,17,+1 gotta love CyanogenMod.  I believe they support 15 devices now with CM6.,74
+64,74,,"<p>No.  You must root your phone and install a mod such as <a href=""http://wiki.cyanogenmod.com/index.php?title=HTC_Dream"" rel=""nofollow"">CyanogenMod</a> to get your phone running a semi-equivalent of Android 2.1+.  There is no stock rom for Android 2.1+ for the G1.  Additionally, if you do go with CyanogenMod, not all features are fully supported due to hardware limitations, such as LiveWallpapers.</p>
+",,21,"There's no need to root the phone, it's possible to flash a non-rooted image of 2.x to a phone.",74
+65,74,,"<p>No.  You must root your phone and install a mod such as <a href=""http://wiki.cyanogenmod.com/index.php?title=HTC_Dream"" rel=""nofollow"">CyanogenMod</a> to get your phone running a semi-equivalent of Android 2.1+.  There is no stock rom for Android 2.1+ for the G1.  Additionally, if you do go with CyanogenMod, not all features are fully supported due to hardware limitations, such as LiveWallpapers.</p>
+",,53,@Arda Xi can you post how that works?,74
+66,75,,"<p>You can only fully uninstall pre-installed applications by using <a href=""http://android-dls.com/wiki/index.php?title=ADB"" rel=""nofollow"">ADB</a>. You need to find out what the package name is for the specific app, and enter this in the ADB prompt:</p>
+
+<pre><code>adb uninstall &lt;package.name&gt;
+</code></pre>
+
+<p>For example, to remove the Maps application:</p>
+
+<pre><code>adb uninstall com.google.android.apps.maps
+</code></pre>
+
+<p>So far I haven't found an easy way to figure out the package name for an app though.</p>
+",,1218,Do this require a rooted phone?,75
+67,75,,"<p>You can only fully uninstall pre-installed applications by using <a href=""http://android-dls.com/wiki/index.php?title=ADB"" rel=""nofollow"">ADB</a>. You need to find out what the package name is for the specific app, and enter this in the ADB prompt:</p>
+
+<pre><code>adb uninstall &lt;package.name&gt;
+</code></pre>
+
+<p>For example, to remove the Maps application:</p>
+
+<pre><code>adb uninstall com.google.android.apps.maps
+</code></pre>
+
+<p>So far I haven't found an easy way to figure out the package name for an app though.</p>
+",,1247,"@Chris - As @Bryan said above, yes, it does.",75
+68,75,,"<p>You can only fully uninstall pre-installed applications by using <a href=""http://android-dls.com/wiki/index.php?title=ADB"" rel=""nofollow"">ADB</a>. You need to find out what the package name is for the specific app, and enter this in the ADB prompt:</p>
+
+<pre><code>adb uninstall &lt;package.name&gt;
+</code></pre>
+
+<p>For example, to remove the Maps application:</p>
+
+<pre><code>adb uninstall com.google.android.apps.maps
+</code></pre>
+
+<p>So far I haven't found an easy way to figure out the package name for an app though.</p>
+",,1474,This isn't 100% true Arda. Many devs now have flashable zips you can run in recovery that will remove apps for you. In fact there is a whole thread for the Evo where someone wrote a script that allows you to create your own flashable zip and choose what apps it will remove.,75
+69,75,,"<p>You can only fully uninstall pre-installed applications by using <a href=""http://android-dls.com/wiki/index.php?title=ADB"" rel=""nofollow"">ADB</a>. You need to find out what the package name is for the specific app, and enter this in the ADB prompt:</p>
+
+<pre><code>adb uninstall &lt;package.name&gt;
+</code></pre>
+
+<p>For example, to remove the Maps application:</p>
+
+<pre><code>adb uninstall com.google.android.apps.maps
+</code></pre>
+
+<p>So far I haven't found an easy way to figure out the package name for an app though.</p>
+",,1480,@Webs - Guess what rooting is? Flashing a zip like that is basically running software as root.,75
+70,75,,"<p>You can only fully uninstall pre-installed applications by using <a href=""http://android-dls.com/wiki/index.php?title=ADB"" rel=""nofollow"">ADB</a>. You need to find out what the package name is for the specific app, and enter this in the ADB prompt:</p>
+
+<pre><code>adb uninstall &lt;package.name&gt;
+</code></pre>
+
+<p>For example, to remove the Maps application:</p>
+
+<pre><code>adb uninstall com.google.android.apps.maps
+</code></pre>
+
+<p>So far I haven't found an easy way to figure out the package name for an app though.</p>
+",,1486,"My comment was directed toward your Answer, not comment, which states that ""You can only fully uninstall pre-installed applications by using ADB."" I was attempting to state that such a statement is not 100% true.",75
+71,75,,"<p>You can only fully uninstall pre-installed applications by using <a href=""http://android-dls.com/wiki/index.php?title=ADB"" rel=""nofollow"">ADB</a>. You need to find out what the package name is for the specific app, and enter this in the ADB prompt:</p>
+
+<pre><code>adb uninstall &lt;package.name&gt;
+</code></pre>
+
+<p>For example, to remove the Maps application:</p>
+
+<pre><code>adb uninstall com.google.android.apps.maps
+</code></pre>
+
+<p>So far I haven't found an easy way to figure out the package name for an app though.</p>
+",,1487,@Webs - Oh right. ADB is a **lot** less involved though.,75
+72,75,,"<p>You can only fully uninstall pre-installed applications by using <a href=""http://android-dls.com/wiki/index.php?title=ADB"" rel=""nofollow"">ADB</a>. You need to find out what the package name is for the specific app, and enter this in the ADB prompt:</p>
+
+<pre><code>adb uninstall &lt;package.name&gt;
+</code></pre>
+
+<p>For example, to remove the Maps application:</p>
+
+<pre><code>adb uninstall com.google.android.apps.maps
+</code></pre>
+
+<p>So far I haven't found an easy way to figure out the package name for an app though.</p>
+",,1492,"Agreed, ADB is less involved for experienced users like us, but for people that know nothing about ADB, but have a rooted phone, flashing a zip in recovery might be easier.",75
+73,75,,"<p>You can only fully uninstall pre-installed applications by using <a href=""http://android-dls.com/wiki/index.php?title=ADB"" rel=""nofollow"">ADB</a>. You need to find out what the package name is for the specific app, and enter this in the ADB prompt:</p>
+
+<pre><code>adb uninstall &lt;package.name&gt;
+</code></pre>
+
+<p>For example, to remove the Maps application:</p>
+
+<pre><code>adb uninstall com.google.android.apps.maps
+</code></pre>
+
+<p>So far I haven't found an easy way to figure out the package name for an app though.</p>
+",,1503,"@Webs - Less involved than flashing a recovery image, booting it and flashing a zip? It probably changed for some ROMs (what with ROM Manager and all) but most users who got their phones rooted some time ago will already have installed that rec-image using ADB.",75
+74,75,,"<p>You can only fully uninstall pre-installed applications by using <a href=""http://android-dls.com/wiki/index.php?title=ADB"" rel=""nofollow"">ADB</a>. You need to find out what the package name is for the specific app, and enter this in the ADB prompt:</p>
+
+<pre><code>adb uninstall &lt;package.name&gt;
+</code></pre>
+
+<p>For example, to remove the Maps application:</p>
+
+<pre><code>adb uninstall com.google.android.apps.maps
+</code></pre>
+
+<p>So far I haven't found an easy way to figure out the package name for an app though.</p>
+",,1504,"True for older users yes. But most root methods that have come out in the last 4 months don't require ADB, but it does vary from phone to phone.",75
+75,75,,"<p>You can only fully uninstall pre-installed applications by using <a href=""http://android-dls.com/wiki/index.php?title=ADB"" rel=""nofollow"">ADB</a>. You need to find out what the package name is for the specific app, and enter this in the ADB prompt:</p>
+
+<pre><code>adb uninstall &lt;package.name&gt;
+</code></pre>
+
+<p>For example, to remove the Maps application:</p>
+
+<pre><code>adb uninstall com.google.android.apps.maps
+</code></pre>
+
+<p>So far I haven't found an easy way to figure out the package name for an app though.</p>
+",,1515,"@Webs - It's pretty dangerous to let someone root their phone without having access to ADB though, especially if their rec-image's nindroid breaks for some reason and you need to do it manually.",75
+76,75,,"<p>You can only fully uninstall pre-installed applications by using <a href=""http://android-dls.com/wiki/index.php?title=ADB"" rel=""nofollow"">ADB</a>. You need to find out what the package name is for the specific app, and enter this in the ADB prompt:</p>
+
+<pre><code>adb uninstall &lt;package.name&gt;
+</code></pre>
+
+<p>For example, to remove the Maps application:</p>
+
+<pre><code>adb uninstall com.google.android.apps.maps
+</code></pre>
+
+<p>So far I haven't found an easy way to figure out the package name for an app though.</p>
+",,1520,"I'm not sure one method is necessarily more dangerous than another, just depends on the exploit the root method is attempting to take advantage of. I personally like using ADB because I know exactly what is happening to my phone, versus Revoked, which does things in the background.",75
+77,75,,"<p>You can only fully uninstall pre-installed applications by using <a href=""http://android-dls.com/wiki/index.php?title=ADB"" rel=""nofollow"">ADB</a>. You need to find out what the package name is for the specific app, and enter this in the ADB prompt:</p>
+
+<pre><code>adb uninstall &lt;package.name&gt;
+</code></pre>
+
+<p>For example, to remove the Maps application:</p>
+
+<pre><code>adb uninstall com.google.android.apps.maps
+</code></pre>
+
+<p>So far I haven't found an easy way to figure out the package name for an app though.</p>
+",,1574,@Webs - Not being able to use ADB when rooting can result in not being able to recover when things go south.,75
+78,78,,"<p>I use <strong><a href=""https://market.android.com/details?id=com.roysolberg.android.datacounter&amp;feature=search_result"" rel=""nofollow"">Data counter widget</a></strong></p>
+
+<p>And <strong><a href=""https://market.android.com/details?id=net.rgruet.android.g3watchdog"" rel=""nofollow"">3G watchdog</a></strong> to keep 3G traffic under control.</p>
+",,267917,[3G Watchdog](https://play.google.com/store/apps/details?id=net.rgruet.android.g3watchdog) is another data monitor app; it has freely selectable time periods.,78
+79,80,,"<p>In settings, goto applications > internet > clear defaults. Next time you perform a search it should ask you which you would like to use and simply select dolphin.</p>
+",,44,"Internet doesn't show up, I tried Browser, but defaults is grayed out",80
+80,80,,"<p>In settings, goto applications > internet > clear defaults. Next time you perform a search it should ask you which you would like to use and simply select dolphin.</p>
+",,1965,It should give you the option to clear defaults under Browser. If its greyed out try doing the same for Google Search.,80
+81,83,How can I use the Android Paid Market from a region where it's not available yet?,"<p>I live in scandinavia and the Market for paid applications is not available here yet. Is there any way I can enable it? Or a workaround?</p>
+",148,173,Similar question is available at :http://android.stackexchange.com/questions/144/how-to-buy-apps-from-unsupported-countries-using-un-rooted-phone,83
+82,85,How to share files through Bluetooth?,"<p>The only way I found to do it is by installing a 3rd party file explorer software. Isn't there a default app that does that? At least for media files?</p>
+",103,23,Since this isn't really an answer to your problem (but it might be!) I'll leave it as a comment.  What do you need this for?  Would Dropbox do what you need?,85
+83,85,How to share files through Bluetooth?,"<p>The only way I found to do it is by installing a 3rd party file explorer software. Isn't there a default app that does that? At least for media files?</p>
+",103,158,@Bryan Dropbox wouldn't help if I have no internet connection,85
+84,88,What podcast apps include variable speed playback?,"<p>I know about <a href=""http://www.astroplayer.com/"">Astro Player</a>. Any other apps that feature podcast managment and variable speed playback?</p>
+",,899,"Speeding them up on the computer might be a very easy way to get this, but probably not what you're looking for.",88
+85,89,How do I disable the 'click' sound on the camera app?,"<p>When I take a picture it makes a 'click' sound. As this is default behavior, I would like to turn it off. Is there a setting to do so; or if I find+delete the sound file, will there be repercussions?</p>
+
+<p>**Please note I am looking for a basically permanent solution rather than one that I would need to set/unset with each use of the app. I like the idea of a root solution, or an app solution; but for the sake of non-root memory-hog slow-camera-app-starting people who can't afford to run another background service, let's make a...</p>
+
+<blockquote>
+  <p>Clarification: let's clarify that this is to do with the Motorola Droid (per the tag, sorry). I'm glad it works for other phone models, however to the best of my knowledge it is not a stock option (if I am wrong please point the way) from 2.0.1, 2.1, or 2.2 on the Motorola Droid. That is to say, unless you are referring to the overall volume controls, there is no volume control/mute for the camera application. (Settings options for camera are: zoom|flash|white balance|store location|focus/exposure settings). </p>
+</blockquote>
+
+<p><strong>I'd like to really tie this question's answer off with a bow: aside from the root option and app option, is there an option to turn off sound in the camera/system settings? [Temporarily muting the phone is a poor option.]</strong></p>
+",98,30,The 'click' sound is required by law in some areas to alert those nearby that a photo is being taken.  It is intended as a measure to prevent privacy violation.,89
+86,89,How do I disable the 'click' sound on the camera app?,"<p>When I take a picture it makes a 'click' sound. As this is default behavior, I would like to turn it off. Is there a setting to do so; or if I find+delete the sound file, will there be repercussions?</p>
+
+<p>**Please note I am looking for a basically permanent solution rather than one that I would need to set/unset with each use of the app. I like the idea of a root solution, or an app solution; but for the sake of non-root memory-hog slow-camera-app-starting people who can't afford to run another background service, let's make a...</p>
+
+<blockquote>
+  <p>Clarification: let's clarify that this is to do with the Motorola Droid (per the tag, sorry). I'm glad it works for other phone models, however to the best of my knowledge it is not a stock option (if I am wrong please point the way) from 2.0.1, 2.1, or 2.2 on the Motorola Droid. That is to say, unless you are referring to the overall volume controls, there is no volume control/mute for the camera application. (Settings options for camera are: zoom|flash|white balance|store location|focus/exposure settings). </p>
+</blockquote>
+
+<p><strong>I'd like to really tie this question's answer off with a bow: aside from the root option and app option, is there an option to turn off sound in the camera/system settings? [Temporarily muting the phone is a poor option.]</strong></p>
+",98,51,"Yeah, I thought I had heard something like that, but for telephone voice recorder apps.",89
+87,89,How do I disable the 'click' sound on the camera app?,"<p>When I take a picture it makes a 'click' sound. As this is default behavior, I would like to turn it off. Is there a setting to do so; or if I find+delete the sound file, will there be repercussions?</p>
+
+<p>**Please note I am looking for a basically permanent solution rather than one that I would need to set/unset with each use of the app. I like the idea of a root solution, or an app solution; but for the sake of non-root memory-hog slow-camera-app-starting people who can't afford to run another background service, let's make a...</p>
+
+<blockquote>
+  <p>Clarification: let's clarify that this is to do with the Motorola Droid (per the tag, sorry). I'm glad it works for other phone models, however to the best of my knowledge it is not a stock option (if I am wrong please point the way) from 2.0.1, 2.1, or 2.2 on the Motorola Droid. That is to say, unless you are referring to the overall volume controls, there is no volume control/mute for the camera application. (Settings options for camera are: zoom|flash|white balance|store location|focus/exposure settings). </p>
+</blockquote>
+
+<p><strong>I'd like to really tie this question's answer off with a bow: aside from the root option and app option, is there an option to turn off sound in the camera/system settings? [Temporarily muting the phone is a poor option.]</strong></p>
+",98,921,@bryan & @wmitsuda : so what would be more effective on mem/speed (the droid is terrible at opening the camera app) - an app or deleting a sound or replacing the sound?,89
+88,90,,"<p>This is now built into Android in Ice Cream Sandwich. You can view usage per application, set limits and restrict background data.</p>
+
+<p>Some more information: <a href=""http://androidadvices.com/set-mobile-data-limit-usage-ice-cream-sandwich-devices/"" rel=""nofollow"">http://androidadvices.com/set-mobile-data-limit-usage-ice-cream-sandwich-devices/</a></p>
+
+<p><a href=""http://www.jaqpot.net/netcounter/"" rel=""nofollow"">NetCounter</a> monitors mobile and wifi traffic.</p>
+",,7015,Note that netcounter appears to be somewhat inaccurate,90
+89,90,,"<p>This is now built into Android in Ice Cream Sandwich. You can view usage per application, set limits and restrict background data.</p>
+
+<p>Some more information: <a href=""http://androidadvices.com/set-mobile-data-limit-usage-ice-cream-sandwich-devices/"" rel=""nofollow"">http://androidadvices.com/set-mobile-data-limit-usage-ice-cream-sandwich-devices/</a></p>
+
+<p><a href=""http://www.jaqpot.net/netcounter/"" rel=""nofollow"">NetCounter</a> monitors mobile and wifi traffic.</p>
+",,25677,"@AshtonBRSC: I think you should have added another answer, rather than radically changing this one.",90
+90,91,,"<p>You need to have the Android SDK installed (or at least a tool that's called adb).
+Further you need to allow ""Non Market installs"" on your device.</p>
+
+<p>After this is done you change to the folder that contains the file with a console.
+Then connect your phone (via USB) and run <code>adb install appname.apk</code></p>
+",,60,See other answers' comments. Already have non-market installs enabled since I had swype installed :),91
+91,98,,"<p>You'll need root to delete the sound file, but this should be it:</p>
+
+<pre><code>Delete /system/media/audio/ui/camera_click.ogg 
+</code></pre>
+
+<p>Repercussions?  It won't play the sound anymore? :)</p>
+
+<p>Alternatively, you could download another camera app that does not produce a camera sound.</p>
+",,34,"As some history for why you just can't turn it off, digital cameras (and camera phones in particular) were starting to be used by peeping toms precisely because they didn't make any sound when taking pictures.",98
+92,98,,"<p>You'll need root to delete the sound file, but this should be it:</p>
+
+<pre><code>Delete /system/media/audio/ui/camera_click.ogg 
+</code></pre>
+
+<p>Repercussions?  It won't play the sound anymore? :)</p>
+
+<p>Alternatively, you could download another camera app that does not produce a camera sound.</p>
+",,49,"I am rooted, so thanks for the path. There's no internal setting to mute or change it? Maybe i will have to replace camera_click.ogg with light sabers or something",98
+93,98,,"<p>You'll need root to delete the sound file, but this should be it:</p>
+
+<pre><code>Delete /system/media/audio/ui/camera_click.ogg 
+</code></pre>
+
+<p>Repercussions?  It won't play the sound anymore? :)</p>
+
+<p>Alternatively, you could download another camera app that does not produce a camera sound.</p>
+",,2033,Works perfectly for me! You might also delete the VideoRecord.ogg file to disable the annoying sound when you start/stop recording a video.,98
+94,98,,"<p>You'll need root to delete the sound file, but this should be it:</p>
+
+<pre><code>Delete /system/media/audio/ui/camera_click.ogg 
+</code></pre>
+
+<p>Repercussions?  It won't play the sound anymore? :)</p>
+
+<p>Alternatively, you could download another camera app that does not produce a camera sound.</p>
+",,17689,"Rename /system/media/audio/ui/camera_click.ogg  to /system/media/audio/ui/camera_click_1.ogg or something,when you feel like getting the sound back,revert to the orignal name.",98
+95,98,,"<p>You'll need root to delete the sound file, but this should be it:</p>
+
+<pre><code>Delete /system/media/audio/ui/camera_click.ogg 
+</code></pre>
+
+<p>Repercussions?  It won't play the sound anymore? :)</p>
+
+<p>Alternatively, you could download another camera app that does not produce a camera sound.</p>
+",,157143,you could also `chmod 000` this file instead of deleting it,98
+96,105,,"<p>Check out Settings Profile - <a href=""http://www.probeez.com/"" rel=""nofollow"">http://www.probeez.com/</a>. I bought both and I prefer Settings Profile (it's also cheaper @ $3.95). There is also a free version that only allows one active rule at a time. </p>
+
+<p>Setting up the profiles in SP is more intuitive (to me). The notification bar displays the active profile(s) and that interface allows you to easily change to a new profile. SP contains a few settings for free that Locale doesn't (i.e. Airplane mode, Dock mode). There are plugins for Locale ($1.99) that can handle this - not sure if there are any free plugins.</p>
+
+<p>I'd recommend trying out the free version to see how setting up profiles work, in general.</p>
+",,10016,I've used this on my old HTC Eris and my (now) Droid X and it rocks.,105
+97,107,,"<p>If you add an empty file called .nomedia to a directory the media scanner will ignore it.</p>
+",,775,"Careful with doing this in music folders, it won't just hide the album art from the scanner, but also the music.",107
+98,120,,"<p>Sorry, but this simply isn't possible.  You have to have administrator access to your phone to control the processor's speed.</p>
+",,48,Shucks.  Looks like I may be rooting my phone in the not too distant future.,120
+99,122,,"<p>When you're in the camera, just use the normal volume to turn sound all the way down.  This worked for me on stock Nexus One running Froyo.</p>
+",,1989,so you turn the sound all the way down just prior to taking a picture? Don't you find that if youre trying to take a picture that this method is less than ideal as it adds [time to zero volume] seconds to the moment you try to capture? Paint me impatient but I personally can barely handle the lag in bringing up the camera app.,122
